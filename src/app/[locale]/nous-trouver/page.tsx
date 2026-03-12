@@ -14,10 +14,17 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "findUs" });
+  const isFr = locale === "fr";
   return {
-    title: t("title"),
-    description: t("subtitle"),
+    title: isFr
+      ? "Nous trouver | Jura Champi - Marchés, locaux, contact"
+      : "Find us | Jura Champi - Markets, premises, contact",
+    description: isFr
+      ? "Où trouver Jura Champi : marchés de Lons-le-Saunier, Arbois, Saint-Claude, Foncine-le-Haut. Nos locaux à Saint-Claude. Contact et livraison champignons frais Jura."
+      : "Where to find Jura Champi: markets in Lons-le-Saunier, Arbois, Saint-Claude. Our premises in Saint-Claude. Contact and fresh mushroom delivery in the Jura.",
+    keywords: isFr
+      ? ["Jura Champi marchés", "champignons Saint-Claude", "marchés Jura", "producteur champignons Lons-le-Saunier"]
+      : ["Jura Champi markets", "mushrooms Saint-Claude", "Jura markets"],
   };
 }
 

@@ -9,10 +9,17 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "products" });
+  const isFr = locale === "fr";
   return {
-    title: t("title"),
-    description: t("subtitle"),
+    title: isFr
+      ? "Nos Champignons | Shiitaké, pleurote, champignon de Paris - Jura Champi"
+      : "Our Mushrooms | Shiitake, oyster, button mushroom - Jura Champi",
+    description: isFr
+      ? "Découvrez nos champignons frais cultivés dans le Jura : shiitaké, pleurote, champignon de Paris, maitaké. Producteur local, livraison restaurants et particuliers."
+      : "Discover our fresh mushrooms grown in the Jura: shiitake, oyster mushroom, button mushroom, maitake. Local producer, delivery to restaurants and individuals.",
+    keywords: isFr
+      ? ["champignons Jura", "shiitaké", "pleurote", "champignon de Paris", "maitaké", "champignons frais"]
+      : ["Jura mushrooms", "shiitake", "oyster mushroom", "fresh mushrooms"],
   };
 }
 

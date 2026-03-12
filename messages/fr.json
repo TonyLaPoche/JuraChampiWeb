@@ -106,6 +106,22 @@
   },
   "footer": {
     "rights": "Tous droits réservés.",
-    "legal": "Mentions légales"
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "terms": "CGV"
+  },
+  "legal": {
+    "mentions": {
+      "title": "Mentions légales",
+      "intro": "Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., les présentes mentions légales s'appliquent au site jurachampi.fr."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "intro": "Jura Champi s'engage à protéger la vie privée des utilisateurs de son site. Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles."
+    },
+    "cgv": {
+      "title": "Conditions générales de vente",
+      "intro": "Les présentes conditions générales de vente régissent les ventes de champignons frais effectuées par Jura Champi auprès des professionnels et des particuliers."
+    }
   }
 }

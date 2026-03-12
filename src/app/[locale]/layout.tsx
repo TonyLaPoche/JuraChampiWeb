@@ -32,6 +32,13 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: titles[locale] ?? titles.fr,
     description: descriptions[locale] ?? descriptions.fr,
+    keywords: [
+      "Jura champi",
+      "Jura champignons",
+      "fournisseur de champignons Jura",
+      "producteur champignons Jura",
+      "champignons frais Jura",
+    ],
     alternates: {
       languages: {
         fr: "/fr",
@@ -54,10 +61,13 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "LocalBusiness",
+    "@id": "https://jurachampi.fr/#organization",
     name: "Jura Champi",
+    alternateName: "Jura Champignons",
     url: "https://jurachampi.fr",
-    description: "Producteur de champignons frais dans le Jura",
+    description: "Producteur et fournisseur de champignons frais dans le Jura. Shiitaké, pleurote, champignon de Paris. Livraison restaurants, cantines, traiteurs et particuliers.",
+    image: "https://jurachampi.fr/og-image.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "1234 Route des Champignons",
@@ -66,13 +76,27 @@ export default async function LocaleLayout({ children, params }: Props) {
       addressRegion: "Jura",
       addressCountry: "FR",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 46.3917,
+      longitude: 5.8642,
+    },
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+33-3-84-51-23-45",
       contactType: "customer service",
       email: "contact@jurachampi.fr",
-      areaServed: "FR",
+      areaServed: ["Jura", "Franche-Comté", "France"],
+      availableLanguage: ["French", "English"],
     },
+    priceRange: "€€",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:00",
+      closes: "18:00",
+    },
+    sameAs: [],
   };
 
   return (

@@ -41,8 +41,19 @@ export function Footer() {
             </Link>
           </div>
         </div>
-        <div className="mt-6 border-t border-emerald-800/50 pt-6 text-center text-sm text-emerald-300">
-          © {new Date().getFullYear()} Jura Champi. {t("rights")}
+        <div className="mt-6 flex flex-col items-center gap-4 border-t border-emerald-800/50 pt-6 text-center text-sm text-emerald-300">
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/mentions-legales" className="hover:text-emerald-200">
+              {t("legal")}
+            </Link>
+            <Link href="/confidentialite" className="hover:text-emerald-200">
+              {t("privacy")}
+            </Link>
+            <Link href="/cgv" className="hover:text-emerald-200">
+              {t("terms")}
+            </Link>
+          </div>
+          <p>© {new Date().getFullYear()} Jura Champi. {t("rights")}</p>
         </div>
       </div>
     </footer>

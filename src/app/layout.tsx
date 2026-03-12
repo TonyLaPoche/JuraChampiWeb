@@ -15,22 +15,26 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://jurachampi.fr"),
   title: {
-    default: "Jura Champi | Producteur de champignons frais dans le Jura",
+    default: "Jura Champi | Producteur et fournisseur de champignons frais dans le Jura",
     template: "%s | Jura Champi",
   },
   description:
-    "Jura Champi - Producteur de champignons frais dans le Jura. Fournisseur pour restaurants, cantines, traiteurs et particuliers. Livraison locale.",
+    "Jura Champi - Producteur et fournisseur de champignons frais dans le Jura. Shiitaké, pleurote, champignon de Paris. Livraison restaurants, cantines, traiteurs et particuliers. Marchés à Lons-le-Saunier, Arbois, Saint-Claude.",
   keywords: [
-    "champignons",
-    "Jura",
-    "producteur",
-    "champignons frais",
-    "restaurant",
-    "cantine",
-    "livraison",
-    "local",
-    "shiitaké",
-    "pleurote",
+    "Jura champi",
+    "Jura champignons",
+    "fournisseur de champignons Jura",
+    "producteur champignons Jura",
+    "champignons frais Jura",
+    "livraison champignons Jura",
+    "champignons restaurants Jura",
+    "champignons cantines",
+    "shiitaké Jura",
+    "pleurote Jura",
+    "champignons Saint-Claude",
+    "champignons Lons-le-Saunier",
+    "champignons Arbois",
+    "producteur local Jura",
   ],
   openGraph: {
     type: "website",
@@ -40,6 +44,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  alternates: {
+    canonical: "https://jurachampi.fr",
   },
 };
 

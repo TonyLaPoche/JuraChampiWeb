@@ -8,6 +8,26 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const isFr = locale === "fr";
+  return {
+    title: isFr
+      ? "Jura Champi | Producteur et fournisseur de champignons frais dans le Jura"
+      : "Jura Champi | Fresh mushroom producer and supplier in the Jura",
+    description: isFr
+      ? "Jura Champi - Producteur et fournisseur de champignons frais dans le Jura. Shiitaké, pleurote, champignon de Paris. Livraison restaurants, cantines, traiteurs et particuliers. Marchés à Lons-le-Saunier, Arbois, Saint-Claude."
+      : "Jura Champi - Fresh mushroom producer and supplier in the Jura. Shiitake, oyster mushroom, button mushroom. Delivery to restaurants, canteens, caterers and individuals.",
+    keywords: isFr
+      ? ["Jura champi", "Jura champignons", "fournisseur champignons Jura", "producteur champignons frais", "champignons Saint-Claude", "livraison champignons"]
+      : ["Jura mushrooms", "mushroom producer Jura", "fresh mushrooms France"],
+  };
+}
+
 export default async function HomePage({
   params,
 }: {

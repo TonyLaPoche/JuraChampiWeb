@@ -106,6 +106,22 @@
   },
   "footer": {
     "rights": "All rights reserved.",
-    "legal": "Legal notice"
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "legal": {
+    "mentions": {
+      "title": "Legal notice",
+      "intro": "In accordance with the provisions of articles 6-III and 19 of Law No. 2004-575 of June 21, 2004 on Confidence in the Digital Economy (L.C.E.N.), these legal notices apply to the jurachampi.fr website."
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "Jura Champi is committed to protecting the privacy of users of its website. This policy explains how we collect, use and protect your personal data."
+    },
+    "cgv": {
+      "title": "Terms and conditions of sale",
+      "intro": "These general terms and conditions of sale govern the sale of fresh mushrooms by Jura Champi to professionals and individuals."
+    }
   }
 }
