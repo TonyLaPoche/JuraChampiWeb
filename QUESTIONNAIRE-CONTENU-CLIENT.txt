@@ -1,11 +1,12 @@
-================================================================================
+======================================================================
 QUESTIONNAIRE CONTENU - SITE JURA CHAMPI
-================================================================================
+======================================================================
 
 Bonjour Laurence et Aurélien,
 
-Voici le contenu actuel du site Jura Champi. Merci de le relire, de le modifier 
-à votre guise et de nous renvoyer vos versions. Nous adapterons le site en fonction 
+Voici le contenu actuel du site Jura Champi.
+https://jura-champi-web.vercel.app/fr
+Merci de le relire, de le modifier à votre guise et de me renvoyer vos versions. j’adapterons le site en fonction 
 de vos retours.
 
 Pour chaque section, vous trouverez :
@@ -15,14 +16,21 @@ Pour chaque section, vous trouverez :
 N'hésitez pas à ajouter, supprimer ou réécrire les passages. Vous pouvez aussi 
 nous indiquer des éléments manquants (autres champignons, autres marchés, etc.).
 
-================================================================================
+Suggestion avec des screen du site actuel et directive (ajout d’élément, d’animation etc..)
+
+CHOSE À SAVOIR !
+
+L’entièreté du contenu actuel est généré par IA (Local) à des fins de remplissage.
+
+
+
+======================================================================
 SECTION 1 - PAGE D'ACCUEIL
-================================================================================
+======================================================================
 
 --- Bandeau principal (en haut de page) ---
 
 Questions :
-- Le titre "Jura Champi" vous convient-il ?
 - La phrase d'accroche reflète-t-elle bien votre activité ?
 - Souhaitez-vous modifier le bouton d'appel à l'action ?
 
@@ -116,9 +124,9 @@ VOS MODIFICATIONS :
 Titre : 
 Sous-titre : 
 
-================================================================================
+======================================================================
 SECTION 2 - PAGE "NOUS TROUVER"
-================================================================================
+======================================================================
 
 --- Notre histoire (version détaillée) ---
 
@@ -198,9 +206,9 @@ Jeu de mot :
 
 Liste des marchés (avec jours/horaires si possible) : 
 
-================================================================================
+======================================================================
 SECTION 3 - PAGE "NOS CHAMPIGNONS"
-================================================================================
+======================================================================
 
 Questions :
 - Cultivez-vous tous ces champignons ? D'autres à ajouter ?
@@ -236,9 +244,9 @@ Maitaké :
 
 Autres champignons à ajouter : 
 
-================================================================================
+======================================================================
 SECTION 4 - PAGE "CONTACT"
-================================================================================
+======================================================================
 
 Questions :
 - Les coordonnées ci-dessous sont fictives. Merci de nous fournir les vraies.
@@ -258,9 +266,9 @@ Email :
 Adresse complète : 
 Horaires / disponibilité : 
 
-================================================================================
+======================================================================
 SECTION 5 - ÉLÉMENTS GÉNÉRAUX
-================================================================================
+======================================================================
 
 Questions :
 - Avez-vous des photos à nous fournir (locaux, champignons, marchés, vous) ?
@@ -271,10 +279,11 @@ VOS RÉPONSES :
 Photos : 
 Logo : 
 Autres : 
-
-================================================================================
+======================================================================
 FIN DU QUESTIONNAIRE
-================================================================================
+======================================================================
+Merci de m’avertir quand vous aurez fini de remplir ce document, je mettrai le site à jour en fonction de vos retours. Puis à partir de là je vous créerais une interface personnel ou vous pourrez également modifier ces contenus de vous même par la suite. 
 
-Merci de nous renvoyer ce document complété par email. Nous mettrons à jour 
-le site en fonction de vos retours.
+
+
+
