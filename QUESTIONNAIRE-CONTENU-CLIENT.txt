@@ -1,0 +1,280 @@
+================================================================================
+QUESTIONNAIRE CONTENU - SITE JURA CHAMPI
+================================================================================
+
+Bonjour Laurence et Aurélien,
+
+Voici le contenu actuel du site Jura Champi. Merci de le relire, de le modifier 
+à votre guise et de nous renvoyer vos versions. Nous adapterons le site en fonction 
+de vos retours.
+
+Pour chaque section, vous trouverez :
+- Des questions pour vous guider
+- Le texte actuel (que vous pouvez modifier directement)
+
+N'hésitez pas à ajouter, supprimer ou réécrire les passages. Vous pouvez aussi 
+nous indiquer des éléments manquants (autres champignons, autres marchés, etc.).
+
+================================================================================
+SECTION 1 - PAGE D'ACCUEIL
+================================================================================
+
+--- Bandeau principal (en haut de page) ---
+
+Questions :
+- Le titre "Jura Champi" vous convient-il ?
+- La phrase d'accroche reflète-t-elle bien votre activité ?
+- Souhaitez-vous modifier le bouton d'appel à l'action ?
+
+CONTENU ACTUEL :
+Titre : Jura Champi
+Sous-titre : Producteur de champignons frais dans le Jura
+Bouton : Nous contacter
+
+VOS MODIFICATIONS :
+Titre : 
+Sous-titre : 
+Bouton : 
+
+--------------------------------------------------------------------------------
+
+--- Notre Histoire ---
+
+Questions :
+- L'année de création (2018) est-elle correcte ?
+- Souhaitez-vous ajouter des détails sur votre parcours ?
+- Des éléments à corriger ou à préciser ?
+
+CONTENU ACTUEL :
+Titre : Notre Histoire
+
+Paragraphe 1 : Jura Champi est née en 2018 de la passion de Laurence et Aurélien 
+pour les champignons et les terres du Jura. Après des années passées dans 
+l'agriculture conventionnelle, ils ont décidé de se spécialiser dans la culture 
+de champignons de qualité, en privilégiant des méthodes respectueuses de 
+l'environnement.
+
+Paragraphe 2 : Installés au cœur du massif jurassien, Laurence et Aurélien 
+cultivent leurs champignons dans d'anciennes caves naturelles qui offrent une 
+hygrométrie et une température idéales. Cette approche traditionnelle, combinée 
+à un savoir-faire moderne, leur permet de proposer des produits d'exception 
+toute l'année.
+
+Paragraphe 3 : Aujourd'hui, Jura Champi fournit les meilleurs restaurants de 
+la région, les cantines scolaires soucieuses de proposer des produits locaux, 
+et les particuliers via notre service de livraison. Notre engagement : des 
+champignons frais, cultivés localement, livrés avec le sourire.
+
+Lien : Découvrir notre histoire et où nous trouver →
+
+VOS MODIFICATIONS :
+Paragraphe 1 : 
+
+Paragraphe 2 : 
+
+Paragraphe 3 : 
+
+--------------------------------------------------------------------------------
+
+--- À qui s'adressent nos champignons ? ---
+
+Questions :
+- Ces trois cibles (restaurants, cantines, particuliers) correspondent-elles 
+  à votre activité ?
+- Souhaitez-vous en ajouter ou en modifier ?
+- Les descriptions sont-elles fidèles ?
+
+CONTENU ACTUEL :
+Titre : À qui s'adressent nos champignons ?
+
+Restaurants & Traiteurs : Des produits frais et de qualité pour sublimer vos plats
+
+Cantines & Écoles : Des approvisionnements réguliers pour des repas locaux et sains
+
+Particuliers : Livraison à domicile pour vos recettes du quotidien
+
+VOS MODIFICATIONS :
+Restaurants & Traiteurs : 
+
+Cantines & Écoles : 
+
+Particuliers : 
+
+--------------------------------------------------------------------------------
+
+--- Aperçu des champignons ---
+
+Questions :
+- Le titre et le sous-titre vous conviennent-ils ?
+
+CONTENU ACTUEL :
+Titre : Nos Champignons
+Sous-titre : Découvrez notre sélection de champignons frais cultivés dans le Jura
+Bouton : Voir tous nos champignons
+
+VOS MODIFICATIONS :
+Titre : 
+Sous-titre : 
+
+================================================================================
+SECTION 2 - PAGE "NOUS TROUVER"
+================================================================================
+
+--- Notre histoire (version détaillée) ---
+
+Questions :
+- Cette version est-elle identique ou complémentaire à celle de l'accueil ?
+- Souhaitez-vous des textes différents entre les deux pages ?
+
+CONTENU ACTUEL :
+Titre : Notre histoire
+
+Paragraphe 1 : Jura Champi est née en 2018 de la passion de Laurence et Aurélien 
+pour les champignons et les terres du Jura. Après des années dans l'agriculture 
+conventionnelle, ils se sont spécialisés dans la culture de champignons de 
+qualité, dans le respect de l'environnement.
+
+Paragraphe 2 : Installés au cœur du massif jurassien, Laurence et Aurélien 
+cultivent leurs champignons dans d'anciennes caves naturelles offrant hygrométrie 
+et température idéales. Une approche traditionnelle alliée à un savoir-faire 
+moderne pour des produits d'exception toute l'année.
+
+VOS MODIFICATIONS :
+Paragraphe 1 : 
+
+Paragraphe 2 : 
+
+--------------------------------------------------------------------------------
+
+--- Nos locaux ---
+
+Questions :
+- L'adresse (Saint-Claude) est-elle correcte ?
+- Souhaitez-vous préciser l'adresse exacte ?
+- La formule "Sur rendez-vous" vous convient-elle ?
+
+CONTENU ACTUEL :
+Titre : Nos locaux
+
+Description : Notre exploitation se trouve à Saint-Claude, au cœur du Haut-Jura. 
+Les caves naturelles qui abritent nos cultures sont le secret de la qualité de 
+nos champignons : fraîcheur constante, humidité naturelle, et ce terroir si 
+particulier qui fait la renommée du Jura.
+
+Visite : Sur rendez-vous pour les professionnels et les curieux !
+
+VOS MODIFICATIONS :
+Description : 
+
+Visite : 
+
+--------------------------------------------------------------------------------
+
+--- Où nous retrouver ? ---
+
+Questions :
+- Le jeu de mot "En plus de nous trouver dans vos assiettes…" vous plaît-il ?
+- La liste des marchés est-elle exacte ? À compléter ou corriger ?
+- Jours et horaires des marchés à ajouter ?
+
+CONTENU ACTUEL :
+Titre : Où nous retrouver ?
+
+Jeu de mot : En plus de nous trouver dans vos assiettes… vous pouvez également 
+nous retrouver !
+
+En ligne & au téléphone : Commandez ou posez vos questions par email ou téléphone. 
+Nous répondons avec plaisir et organisons les livraisons selon vos besoins.
+
+Sur les marchés du Jura : Venez nous dire bonjour et déguster nos champignons 
+sur les marchés de producteurs. L'occasion d'échanger, de découvrir nos 
+nouveautés et de repartir avec le panier garni !
+
+Liste des marchés : Lons-le-Saunier, Arbois, Saint-Claude, Foncine-le-Haut, 
+Morez, Champagnole… et bien d'autres selon les saisons.
+
+VOS MODIFICATIONS :
+Jeu de mot : 
+
+Liste des marchés (avec jours/horaires si possible) : 
+
+================================================================================
+SECTION 3 - PAGE "NOS CHAMPIGNONS"
+================================================================================
+
+Questions :
+- Cultivez-vous tous ces champignons ? D'autres à ajouter ?
+- Les descriptions sont-elles correctes ?
+- Avez-vous des recettes ou conseils de préparation à partager ?
+
+CONTENU ACTUEL :
+
+Shiitaké
+Le shiitaké, originaire d'Asie, est apprécié pour sa chair ferme et son goût 
+umami prononcé. Parfait pour les sautés, soupes et plats asiatiques.
+
+Pleurote
+Le pleurote en huître offre une texture délicate et une saveur douce. Idéal 
+poêlé, en sauce ou dans les risottos.
+
+Champignon de Paris
+Le classique indémodable. Polyvalent et délicieux, il s'accommode de toutes 
+les cuisines et se déguste cru ou cuit.
+
+Maitaké
+Aussi appelé « poule des bois », le maitaké possède une texture unique et des 
+notes boisées. Excellent en fricassée ou en accompagnement.
+
+VOS MODIFICATIONS :
+Shiitaké : 
+
+Pleurote : 
+
+Champignon de Paris : 
+
+Maitaké : 
+
+Autres champignons à ajouter : 
+
+================================================================================
+SECTION 4 - PAGE "CONTACT"
+================================================================================
+
+Questions :
+- Les coordonnées ci-dessous sont fictives. Merci de nous fournir les vraies.
+- Souhaitez-vous ajouter des horaires d'ouverture ou de disponibilité ?
+
+CONTENU ACTUEL :
+Titre : Contactez-nous
+Sous-titre : Une question, une commande ? N'hésitez pas à nous contacter.
+
+Téléphone : +33 3 84 51 23 45
+Email : contact@jurachampi.fr
+Adresse : 1234 Route des Champignons, 39200 Saint-Claude, Jura
+
+VOS COORDONNÉES :
+Téléphone : 
+Email : 
+Adresse complète : 
+Horaires / disponibilité : 
+
+================================================================================
+SECTION 5 - ÉLÉMENTS GÉNÉRAUX
+================================================================================
+
+Questions :
+- Avez-vous des photos à nous fournir (locaux, champignons, marchés, vous) ?
+- Un logo existant ?
+- Des mentions légales ou informations à ajouter ?
+
+VOS RÉPONSES :
+Photos : 
+Logo : 
+Autres : 
+
+================================================================================
+FIN DU QUESTIONNAIRE
+================================================================================
+
+Merci de nous renvoyer ce document complété par email. Nous mettrons à jour 
+le site en fonction de vos retours.

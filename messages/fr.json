@@ -2,6 +2,7 @@
   "common": {
     "home": "Accueil",
     "products": "Nos Champignons",
+    "findUs": "Nous trouver",
     "contact": "Contact",
     "language": "Langue"
   },
@@ -13,9 +14,10 @@
     },
     "story": {
       "title": "Notre Histoire",
-      "paragraph1": "Jura Champi est née en 2018 de la passion d'un couple pour les champignons et les terres du Jura. Après des années passées dans l'agriculture conventionnelle, nous avons décidé de nous spécialiser dans la culture de champignons de qualité, en privilégiant des méthodes respectueuses de l'environnement.",
-      "paragraph2": "Installés au cœur du massif jurassien, nous cultivons nos champignons dans d'anciennes caves naturelles qui offrent une hygrométrie et une température idéales. Cette approche traditionnelle, combinée à un savoir-faire moderne, nous permet de proposer des produits d'exception toute l'année.",
-      "paragraph3": "Aujourd'hui, Jura Champi fournit les meilleurs restaurants de la région, les cantines scolaires soucieuses de proposer des produits locaux, et les particuliers via notre service de livraison. Notre engagement : des champignons frais, cultivés localement, livrés avec le sourire."
+      "paragraph1": "Jura Champi est née en 2018 de la passion de Laurence et Aurélien pour les champignons et les terres du Jura. Après des années passées dans l'agriculture conventionnelle, ils ont décidé de se spécialiser dans la culture de champignons de qualité, en privilégiant des méthodes respectueuses de l'environnement.",
+      "paragraph2": "Installés au cœur du massif jurassien, Laurence et Aurélien cultivent leurs champignons dans d'anciennes caves naturelles qui offrent une hygrométrie et une température idéales. Cette approche traditionnelle, combinée à un savoir-faire moderne, leur permet de proposer des produits d'exception toute l'année.",
+      "paragraph3": "Aujourd'hui, Jura Champi fournit les meilleurs restaurants de la région, les cantines scolaires soucieuses de proposer des produits locaux, et les particuliers via notre service de livraison. Notre engagement : des champignons frais, cultivés localement, livrés avec le sourire.",
+      "learnMore": "Découvrir notre histoire et où nous trouver →"
     },
     "clients": {
       "title": "À qui s'adressent nos champignons ?",
@@ -73,6 +75,33 @@
       "email": "Email",
       "address": "Adresse",
       "addressValue": "1234 Route des Champignons, 39200 Saint-Claude, Jura"
+    }
+  },
+    "findUs": {
+    "title": "Nous trouver",
+    "subtitle": "Notre histoire, nos locaux et où nous retrouver",
+    "history": {
+      "title": "Notre histoire",
+      "paragraph1": "Jura Champi est née en 2018 de la passion de Laurence et Aurélien pour les champignons et les terres du Jura. Après des années dans l'agriculture conventionnelle, ils se sont spécialisés dans la culture de champignons de qualité, dans le respect de l'environnement.",
+      "paragraph2": "Installés au cœur du massif jurassien, Laurence et Aurélien cultivent leurs champignons dans d'anciennes caves naturelles offrant hygrométrie et température idéales. Une approche traditionnelle alliée à un savoir-faire moderne pour des produits d'exception toute l'année."
+    },
+    "premises": {
+      "title": "Nos locaux",
+      "description": "Notre exploitation se trouve à Saint-Claude, au cœur du Haut-Jura. Les caves naturelles qui abritent nos cultures sont le secret de la qualité de nos champignons : fraîcheur constante, humidité naturelle, et ce terroir si particulier qui fait la renommée du Jura.",
+      "visit": "Sur rendez-vous pour les professionnels et les curieux !"
+    },
+    "whereToFind": {
+      "title": "Où nous retrouver ?",
+      "wordplay": "En plus de nous trouver dans vos assiettes… vous pouvez également nous retrouver !",
+      "online": {
+        "title": "En ligne & au téléphone",
+        "description": "Commandez ou posez vos questions par email ou téléphone. Nous répondons avec plaisir et organisons les livraisons selon vos besoins."
+      },
+      "markets": {
+        "title": "Sur les marchés du Jura",
+        "description": "Venez nous dire bonjour et déguster nos champignons sur les marchés de producteurs. L'occasion d'échanger, de découvrir nos nouveautés et de repartir avec le panier garni !",
+        "list": "Lons-le-Saunier, Arbois, Saint-Claude, Foncine-le-Haut, Morez, Champagnole… et bien d'autres selon les saisons."
+      }
     }
   },
   "footer": {

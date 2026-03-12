@@ -14,12 +14,18 @@ export function Footer() {
           <Link href="/" className="text-lg font-bold text-emerald-50">
             Jura Champi
           </Link>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             <Link
               href="/"
               className="text-sm transition-colors hover:text-emerald-300"
             >
               {tCommon("home")}
+            </Link>
+            <Link
+              href="/nous-trouver"
+              className="text-sm transition-colors hover:text-emerald-300"
+            >
+              {tCommon("findUs")}
             </Link>
             <Link
               href="/produits"

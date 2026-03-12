@@ -2,6 +2,7 @@
   "common": {
     "home": "Home",
     "products": "Our Mushrooms",
+    "findUs": "Find us",
     "contact": "Contact",
     "language": "Language"
   },
@@ -13,9 +14,10 @@
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "Jura Champi was born in 2018 from a couple's passion for mushrooms and the lands of the Jura. After years in conventional agriculture, we decided to specialize in quality mushroom cultivation, favoring environmentally friendly methods.",
-      "paragraph2": "Based in the heart of the Jura massif, we grow our mushrooms in natural caves that offer ideal humidity and temperature. This traditional approach, combined with modern know-how, allows us to offer exceptional products year-round.",
-      "paragraph3": "Today, Jura Champi supplies the best restaurants in the region, school canteens committed to offering local products, and individuals through our delivery service. Our commitment: fresh mushrooms, locally grown, delivered with a smile."
+      "paragraph1": "Jura Champi was born in 2018 from Laurence and Aurélien's passion for mushrooms and the lands of the Jura. After years in conventional agriculture, they decided to specialize in quality mushroom cultivation, favoring environmentally friendly methods.",
+      "paragraph2": "Based in the heart of the Jura massif, Laurence and Aurélien grow their mushrooms in natural caves that offer ideal humidity and temperature. This traditional approach, combined with modern know-how, allows them to offer exceptional products year-round.",
+      "paragraph3": "Today, Jura Champi supplies the best restaurants in the region, school canteens committed to offering local products, and individuals through our delivery service. Our commitment: fresh mushrooms, locally grown, delivered with a smile.",
+      "learnMore": "Discover our story and where to find us →"
     },
     "clients": {
       "title": "Who are our mushrooms for?",
@@ -73,6 +75,33 @@
       "email": "Email",
       "address": "Address",
       "addressValue": "1234 Route des Champignons, 39200 Saint-Claude, Jura"
+    }
+  },
+    "findUs": {
+    "title": "Find us",
+    "subtitle": "Our story, our premises and where to find us",
+    "history": {
+      "title": "Our story",
+      "paragraph1": "Jura Champi was born in 2018 from Laurence and Aurélien's passion for mushrooms and the lands of the Jura. After years in conventional agriculture, they specialized in quality mushroom cultivation, with respect for the environment.",
+      "paragraph2": "Based in the heart of the Jura massif, Laurence and Aurélien grow their mushrooms in natural caves offering ideal humidity and temperature. A traditional approach combined with modern know-how for exceptional products year-round."
+    },
+    "premises": {
+      "title": "Our premises",
+      "description": "Our farm is located in Saint-Claude, in the heart of the Haut-Jura. The natural caves that house our crops are the secret to our mushrooms' quality: constant freshness, natural humidity, and that unique terroir that makes the Jura famous.",
+      "visit": "By appointment for professionals and the curious!"
+    },
+    "whereToFind": {
+      "title": "Where to find us?",
+      "wordplay": "Besides finding us on your plate… you can also find us here!",
+      "online": {
+        "title": "Online & by phone",
+        "description": "Order or ask your questions by email or phone. We're happy to respond and organize deliveries according to your needs."
+      },
+      "markets": {
+        "title": "At Jura markets",
+        "description": "Come say hello and taste our mushrooms at local producer markets. A chance to chat, discover our latest products and leave with a full basket!",
+        "list": "Lons-le-Saunier, Arbois, Saint-Claude, Foncine-le-Haut, Morez, Champagnole… and many more depending on the season."
+      }
     }
   },
   "footer": {

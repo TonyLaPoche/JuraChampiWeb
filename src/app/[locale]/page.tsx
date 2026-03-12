@@ -54,6 +54,14 @@ export default async function HomePage({
               <p>{t("story.paragraph1")}</p>
               <p>{t("story.paragraph2")}</p>
               <p>{t("story.paragraph3")}</p>
+            <div className="mt-6">
+              <Link
+                href="/nous-trouver"
+                className="inline-flex items-center font-semibold text-emerald-600 hover:text-emerald-700"
+              >
+                {t("story.learnMore")}
+              </Link>
+            </div>
             </div>
           </div>
         </div>

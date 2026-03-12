@@ -3,7 +3,7 @@ import { routing } from "@/i18n/routing";
 export default function sitemap() {
   const baseUrl = "https://jurachampi.fr";
 
-  const routes = ["", "/produits", "/contact"];
+  const routes = ["", "/nous-trouver", "/produits", "/contact"];
 
   return routing.locales.flatMap((locale) =>
     routes.map((route) => ({
