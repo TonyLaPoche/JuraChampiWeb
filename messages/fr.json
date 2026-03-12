@@ -1,0 +1,82 @@
+{
+  "common": {
+    "home": "Accueil",
+    "products": "Nos Champignons",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "home": {
+    "hero": {
+      "title": "Jura Champi",
+      "subtitle": "Producteur de champignons frais dans le Jura",
+      "cta": "Nous contacter"
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "paragraph1": "Jura Champi est née en 2018 de la passion d'un couple pour les champignons et les terres du Jura. Après des années passées dans l'agriculture conventionnelle, nous avons décidé de nous spécialiser dans la culture de champignons de qualité, en privilégiant des méthodes respectueuses de l'environnement.",
+      "paragraph2": "Installés au cœur du massif jurassien, nous cultivons nos champignons dans d'anciennes caves naturelles qui offrent une hygrométrie et une température idéales. Cette approche traditionnelle, combinée à un savoir-faire moderne, nous permet de proposer des produits d'exception toute l'année.",
+      "paragraph3": "Aujourd'hui, Jura Champi fournit les meilleurs restaurants de la région, les cantines scolaires soucieuses de proposer des produits locaux, et les particuliers via notre service de livraison. Notre engagement : des champignons frais, cultivés localement, livrés avec le sourire."
+    },
+    "clients": {
+      "title": "À qui s'adressent nos champignons ?",
+      "restaurants": "Restaurants & Traiteurs",
+      "restaurantsDesc": "Des produits frais et de qualité pour sublimer vos plats",
+      "canteens": "Cantines & Écoles",
+      "canteensDesc": "Des approvisionnements réguliers pour des repas locaux et sains",
+      "individuals": "Particuliers",
+      "individualsDesc": "Livraison à domicile pour vos recettes du quotidien"
+    },
+    "productsPreview": {
+      "title": "Nos Champignons",
+      "subtitle": "Découvrez notre sélection de champignons frais cultivés dans le Jura",
+      "viewAll": "Voir tous nos champignons"
+    }
+  },
+  "products": {
+    "title": "Nos Champignons",
+    "subtitle": "Des champignons frais cultivés avec passion dans le Jura",
+    "shiitake": {
+      "name": "Shiitaké",
+      "description": "Le shiitaké, originaire d'Asie, est apprécié pour sa chair ferme et son goût umami prononcé. Parfait pour les sautés, soupes et plats asiatiques."
+    },
+    "pleurote": {
+      "name": "Pleurote",
+      "description": "Le pleurote en huître offre une texture délicate et une saveur douce. Idéal poêlé, en sauce ou dans les risottos."
+    },
+    "champignonParis": {
+      "name": "Champignon de Paris",
+      "description": "Le classique indémodable. Polyvalent et délicieux, il s'accommode de toutes les cuisines et se déguste cru ou cuit."
+    },
+    "maitake": {
+      "name": "Maitaké",
+      "description": "Aussi appelé « poule des bois », le maitaké possède une texture unique et des notes boisées. Excellent en fricassée ou en accompagnement."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question, une commande ? N'hésitez pas à nous contacter.",
+    "form": {
+      "sectionTitle": "Envoyez-nous un message",
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success": "✓ Message envoyé",
+      "error": "Erreur - Réessayer"
+    },
+    "info": {
+      "title": "Nos coordonnées",
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse",
+      "addressValue": "1234 Route des Champignons, 39200 Saint-Claude, Jura"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions légales"
+  }
+}

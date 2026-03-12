@@ -1,0 +1,44 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+
+export function Footer() {
+  const t = useTranslations("footer");
+  const tCommon = useTranslations("common");
+
+  return (
+    <footer className="border-t border-emerald-900/10 bg-emerald-950 text-emerald-100">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+          <Link href="/" className="text-lg font-bold text-emerald-50">
+            Jura Champi
+          </Link>
+          <div className="flex gap-6">
+            <Link
+              href="/"
+              className="text-sm transition-colors hover:text-emerald-300"
+            >
+              {tCommon("home")}
+            </Link>
+            <Link
+              href="/produits"
+              className="text-sm transition-colors hover:text-emerald-300"
+            >
+              {tCommon("products")}
+            </Link>
+            <Link
+              href="/contact"
+              className="text-sm transition-colors hover:text-emerald-300"
+            >
+              {tCommon("contact")}
+            </Link>
+          </div>
+        </div>
+        <div className="mt-6 border-t border-emerald-800/50 pt-6 text-center text-sm text-emerald-300">
+          © {new Date().getFullYear()} Jura Champi. {t("rights")}
+        </div>
+      </div>
+    </footer>
+  );
+}

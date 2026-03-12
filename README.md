@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jura Champi - Site Vitrine
 
-## Getting Started
+Site vitrine pour **Jura Champi**, producteur de champignons frais dans le Jura.
 
-First, run the development server:
+## 🍄 Fonctionnalités
+
+- **Page d'accueil** : Histoire de l'entreprise, clients cibles (restaurants, cantines, particuliers), aperçu des produits
+- **Page Produits** : Présentation des champignons (Shiitaké, Pleurote, Champignon de Paris, Maitaké)
+- **Page Contact** : Formulaire de contact + carte de visite (téléphone, email, adresse)
+- **i18n** : Français et Anglais avec switcher dans le header
+- **SEO** : Métadonnées, sitemap, robots.txt, JSON-LD (Schema.org)
+- **Responsive** : Mobile-first, design fluide
+
+## 🚀 Démarrage
 
 ```bash
+# Installation
+npm install
+
+# Développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build production
+npm run build
+
+# Production
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [http://localhost:3000](http://localhost:3000) — le site redirige vers `/fr` par défaut.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── [locale]/          # Routes avec locale (fr, en)
+│   │   ├── page.tsx       # Accueil
+│   │   ├── produits/      # Nos champignons
+│   │   └── contact/       # Contact
+│   ├── layout.tsx
+│   ├── sitemap.ts
+│   └── robots.ts
+├── components/
+│   ├── Header.tsx
+│   └── Footer.tsx
+├── i18n/
+│   ├── routing.ts
+│   ├── request.ts
+│   └── navigation.ts
+└── middleware.ts
+```
 
-## Learn More
+## 📝 Configuration
 
-To learn more about Next.js, take a look at the following resources:
+- **Contact** : Remplacer les coordonnées fictives dans `contact/page.tsx` et les messages
+- **Formulaire** : Connecter à une API (Resend, SendGrid, etc.) dans `handleSubmit`
+- **Images** : Remplacer les URLs Unsplash par les vraies photos du client
+- **Textes** : Mettre à jour `messages/fr.json` et `messages/en.json` avec le contenu client
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔗 URLs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `https://jurachampi.fr/fr` — Accueil
+- `https://jurachampi.fr/en` — Home (EN)
+- `https://jurachampi.fr/fr/produits` — Nos champignons
+- `https://jurachampi.fr/fr/contact` — Contact

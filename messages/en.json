@@ -1,0 +1,82 @@
+{
+  "common": {
+    "home": "Home",
+    "products": "Our Mushrooms",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "title": "Jura Champi",
+      "subtitle": "Fresh mushroom producer in the Jura region",
+      "cta": "Contact us"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Jura Champi was born in 2018 from a couple's passion for mushrooms and the lands of the Jura. After years in conventional agriculture, we decided to specialize in quality mushroom cultivation, favoring environmentally friendly methods.",
+      "paragraph2": "Based in the heart of the Jura massif, we grow our mushrooms in natural caves that offer ideal humidity and temperature. This traditional approach, combined with modern know-how, allows us to offer exceptional products year-round.",
+      "paragraph3": "Today, Jura Champi supplies the best restaurants in the region, school canteens committed to offering local products, and individuals through our delivery service. Our commitment: fresh mushrooms, locally grown, delivered with a smile."
+    },
+    "clients": {
+      "title": "Who are our mushrooms for?",
+      "restaurants": "Restaurants & Caterers",
+      "restaurantsDesc": "Fresh, quality products to enhance your dishes",
+      "canteens": "Canteens & Schools",
+      "canteensDesc": "Regular supplies for local, healthy meals",
+      "individuals": "Individuals",
+      "individualsDesc": "Home delivery for your everyday recipes"
+    },
+    "productsPreview": {
+      "title": "Our Mushrooms",
+      "subtitle": "Discover our selection of fresh mushrooms grown in the Jura",
+      "viewAll": "View all our mushrooms"
+    }
+  },
+  "products": {
+    "title": "Our Mushrooms",
+    "subtitle": "Fresh mushrooms grown with passion in the Jura",
+    "shiitake": {
+      "name": "Shiitake",
+      "description": "Shiitake, originally from Asia, is prized for its firm flesh and pronounced umami flavor. Perfect for stir-fries, soups and Asian dishes."
+    },
+    "pleurote": {
+      "name": "Oyster Mushroom",
+      "description": "The oyster mushroom offers a delicate texture and mild flavor. Ideal pan-fried, in sauce or in risottos."
+    },
+    "champignonParis": {
+      "name": "Button Mushroom",
+      "description": "The timeless classic. Versatile and delicious, it adapts to all cuisines and can be enjoyed raw or cooked."
+    },
+    "maitake": {
+      "name": "Maitake",
+      "description": "Also called 'hen of the woods', maitake has a unique texture and woody notes. Excellent in fricassée or as a side dish."
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "A question, an order? Don't hesitate to contact us.",
+    "form": {
+      "sectionTitle": "Send us a message",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "✓ Message sent",
+      "error": "Error - Try again"
+    },
+    "info": {
+      "title": "Our contact details",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "addressValue": "1234 Route des Champignons, 39200 Saint-Claude, Jura"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legal": "Legal notice"
+  }
+}
