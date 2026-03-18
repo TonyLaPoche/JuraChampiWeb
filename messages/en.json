@@ -14,13 +14,12 @@
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "Jura Champi was born in 2018 from Laurence and Aurélien's passion for mushrooms and the lands of the Jura. After years in conventional agriculture, they decided to specialize in quality mushroom cultivation, favoring environmentally friendly methods.",
-      "paragraph2": "Based in the heart of the Jura massif, Laurence and Aurélien grow their mushrooms in natural caves that offer ideal humidity and temperature. This traditional approach, combined with modern know-how, allows them to offer exceptional products year-round.",
-      "paragraph3": "Today, Jura Champi supplies the best restaurants in the region, school canteens committed to offering local products, and individuals through our delivery service. Our commitment: fresh mushrooms, locally grown, delivered with a smile.",
+      "paragraph1": "Jura Champi is a small artisan farm where we grow our mushrooms in accordance with organic farming and strive to preserve the nature and environment around us. Located in the small village of Collonges, on the edge of the Jura. Our small farm is in the Ain department, close to the Swiss border.",
       "learnMore": "Discover our story and where to find us →"
     },
     "clients": {
       "title": "Who are our mushrooms for?",
+      "intro": "Our mushrooms are for restaurateurs, caterers, communities, organic food stores and other businesses. Individuals can also be delivered directly to their homes.",
       "restaurants": "Restaurants & Caterers",
       "restaurantsDesc": "Fresh, quality products to enhance your dishes",
       "canteens": "Canteens & Schools",
@@ -29,29 +28,33 @@
       "individualsDesc": "Home delivery for your everyday recipes"
     },
     "productsPreview": {
-      "title": "Our Mushrooms",
-      "subtitle": "Discover our selection of fresh mushrooms grown in the Jura",
+      "title": "Discover our selection of fresh mushrooms grown at the foot of the Jura",
+      "subtitle": "Choose our mushrooms",
       "viewAll": "View all our mushrooms"
     }
   },
   "products": {
     "title": "Our Mushrooms",
-    "subtitle": "Fresh mushrooms grown with passion in the Jura",
+    "subtitle": "Fresh mushrooms grown with passion at the foot of the Jura",
+    "pleuroteBlanche": {
+      "name": "White Oyster Mushroom",
+      "description": "The white oyster mushroom offers a delicate texture and subtle, mild flavor. Ideal pan-fried, in sauce or in risottos."
+    },
+    "pleurotePanicaut": {
+      "name": "Pleurotus eryngii",
+      "description": "Pleurotus eryngii stands out for its firm flesh and pronounced flavor. Excellent grilled or as an accompaniment to meats."
+    },
+    "blackPearl": {
+      "name": "Black Pearl",
+      "description": "Black Pearl is a mushroom with a dark cap and meaty texture. Its intense flavor makes it a choice ingredient for hearty dishes."
+    },
     "shiitake": {
       "name": "Shiitake",
       "description": "Shiitake, originally from Asia, is prized for its firm flesh and pronounced umami flavor. Perfect for stir-fries, soups and Asian dishes."
     },
-    "pleurote": {
-      "name": "Oyster Mushroom",
-      "description": "The oyster mushroom offers a delicate texture and mild flavor. Ideal pan-fried, in sauce or in risottos."
-    },
-    "champignonParis": {
-      "name": "Button Mushroom",
-      "description": "The timeless classic. Versatile and delicious, it adapts to all cuisines and can be enjoyed raw or cooked."
-    },
-    "maitake": {
-      "name": "Maitake",
-      "description": "Also called 'hen of the woods', maitake has a unique texture and woody notes. Excellent in fricassée or as a side dish."
+    "criniereLion": {
+      "name": "Lion's Mane",
+      "description": "Also called 'beard of Saturn', lion's mane offers a unique filamentous texture and delicate notes. Delicious pan-fried or in broth."
     }
   },
   "contact": {
@@ -74,7 +77,11 @@
       "phone": "Phone",
       "email": "Email",
       "address": "Address",
-      "addressValue": "1234 Route des Champignons, 39200 Saint-Claude, Jura"
+      "hours": "Hours",
+      "phoneValue": "+33 6 09 33 15 67",
+      "emailValue": "contact@jurachampi.fr",
+      "addressValue": "250, rue de l'Etournelle Techno Parc de Collonges, 01550 Collonges",
+      "hoursValue": "Monday to Friday — 9am to 12pm and 2pm to 6pm"
     }
   },
     "findUs": {
@@ -82,25 +89,23 @@
     "subtitle": "Our story, our premises and where to find us",
     "history": {
       "title": "Our story",
-      "paragraph1": "Jura Champi was born in 2018 from Laurence and Aurélien's passion for mushrooms and the lands of the Jura. After years in conventional agriculture, they specialized in quality mushroom cultivation, with respect for the environment.",
-      "paragraph2": "Based in the heart of the Jura massif, Laurence and Aurélien grow their mushrooms in natural caves offering ideal humidity and temperature. A traditional approach combined with modern know-how for exceptional products year-round."
+      "paragraph1": "Jura Champi is a small artisan farm where we grow our mushrooms in accordance with organic farming and strive to preserve the nature and environment around us. Located in the small village of Collonges, on the edge of the Jura. Our small farm is in the Ain department, close to the Swiss border."
     },
     "premises": {
       "title": "Our premises",
-      "description": "Our farm is located in Saint-Claude, in the heart of the Haut-Jura. The natural caves that house our crops are the secret to our mushrooms' quality: constant freshness, natural humidity, and that unique terroir that makes the Jura famous.",
-      "visit": "By appointment for professionals and the curious!"
+      "description": "Our farm is located in Collonges along the Jura. Our mushrooms are grown in accordance with organic farming.",
+      "address": "250, rue de l'Etournelle Techno Parc de Collonges, 01550 Collonges"
     },
     "whereToFind": {
       "title": "Where to find us?",
-      "wordplay": "Besides finding us on your plate… you can also find us here!",
       "online": {
         "title": "Online & by phone",
         "description": "Order or ask your questions by email or phone. We're happy to respond and organize deliveries according to your needs."
       },
       "markets": {
-        "title": "At Jura markets",
+        "title": "At markets",
         "description": "Come say hello and taste our mushrooms at local producer markets. A chance to chat, discover our latest products and leave with a full basket!",
-        "list": "Lons-le-Saunier, Arbois, Saint-Claude, Foncine-le-Haut, Morez, Champagnole… and many more depending on the season."
+        "list": "Market list coming soon."
       }
     }
   },

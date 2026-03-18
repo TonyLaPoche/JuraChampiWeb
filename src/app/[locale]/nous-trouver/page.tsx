@@ -20,8 +20,8 @@ export async function generateMetadata({
       ? "Nous trouver | Jura Champi - Marchés, locaux, contact"
       : "Find us | Jura Champi - Markets, premises, contact",
     description: isFr
-      ? "Où trouver Jura Champi : marchés de Lons-le-Saunier, Arbois, Saint-Claude, Foncine-le-Haut. Nos locaux à Saint-Claude. Contact et livraison champignons frais Jura."
-      : "Where to find Jura Champi: markets in Lons-le-Saunier, Arbois, Saint-Claude. Our premises in Saint-Claude. Contact and fresh mushroom delivery in the Jura.",
+      ? "Où trouver Jura Champi : nos locaux à Collonges (Ain), en bordure du Jura. Contact et livraison champignons frais. Marchés à venir."
+      : "Where to find Jura Champi: our premises in Collonges (Ain), on the edge of the Jura. Contact and fresh mushroom delivery.",
     keywords: isFr
       ? ["Jura Champi marchés", "champignons Saint-Claude", "marchés Jura", "producteur champignons Lons-le-Saunier"]
       : ["Jura Champi markets", "mushrooms Saint-Claude", "Jura markets"],
@@ -54,13 +54,12 @@ export default async function NousTrouverPage({
       {/* Notre histoire */}
       <section className="py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
+            <div className="mx-auto max-w-3xl">
             <h2 className="text-2xl font-bold text-emerald-900 sm:text-3xl">
               {t("history.title")}
             </h2>
             <div className="mt-6 space-y-4 text-lg leading-relaxed text-emerald-800/90">
               <p>{t("history.paragraph1")}</p>
-              <p>{t("history.paragraph2")}</p>
             </div>
           </div>
         </div>
@@ -77,8 +76,8 @@ export default async function NousTrouverPage({
               <p className="mt-6 text-lg leading-relaxed text-emerald-800">
                 {t("premises.description")}
               </p>
-              <p className="mt-4 font-medium italic text-emerald-700">
-                {t("premises.visit")}
+              <p className="mt-4 text-emerald-700">
+                {t("premises.address")}
               </p>
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
@@ -100,9 +99,6 @@ export default async function NousTrouverPage({
           <h2 className="text-2xl font-bold text-emerald-900 sm:text-3xl">
             {t("whereToFind.title")}
           </h2>
-          <p className="mt-4 rounded-xl bg-emerald-100 px-6 py-4 text-center text-lg font-medium italic text-emerald-800 sm:text-xl">
-            « {t("whereToFind.wordplay")} »
-          </p>
 
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             {/* En ligne & téléphone */}

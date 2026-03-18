@@ -9,18 +9,17 @@
   "home": {
     "hero": {
       "title": "Jura Champi",
-      "subtitle": "Producteur de champignons frais dans le Jura",
+      "subtitle": "Culture de champignons frais en bordure du Jura",
       "cta": "Nous contacter"
     },
     "story": {
       "title": "Notre Histoire",
-      "paragraph1": "Jura Champi est née en 2018 de la passion de Laurence et Aurélien pour les champignons et les terres du Jura. Après des années passées dans l'agriculture conventionnelle, ils ont décidé de se spécialiser dans la culture de champignons de qualité, en privilégiant des méthodes respectueuses de l'environnement.",
-      "paragraph2": "Installés au cœur du massif jurassien, Laurence et Aurélien cultivent leurs champignons dans d'anciennes caves naturelles qui offrent une hygrométrie et une température idéales. Cette approche traditionnelle, combinée à un savoir-faire moderne, leur permet de proposer des produits d'exception toute l'année.",
-      "paragraph3": "Aujourd'hui, Jura Champi fournit les meilleurs restaurants de la région, les cantines scolaires soucieuses de proposer des produits locaux, et les particuliers via notre service de livraison. Notre engagement : des champignons frais, cultivés localement, livrés avec le sourire.",
+      "paragraph1": "Jura Champi est une micro ferme artisanale où nous cultivons nos champignons dans le respect de l'agriculture biologique et en s'efforçant de préserver la nature et l'environnement qui nous entoure. Située dans le petit village de Collonges, en bordure du Jura. Notre petite ferme se trouve dans le département de l'Ain proche de la frontière Suisse.",
       "learnMore": "Découvrir notre histoire et où nous trouver →"
     },
     "clients": {
       "title": "À qui s'adressent nos champignons ?",
+      "intro": "Nos champignons s'adressent non seulement aux restaurateurs, traiteurs, aux collectivités, magasins spécialisés en alimentation biologique et autres commerces. Les particuliers peuvent aussi être livrés directement chez eux.",
       "restaurants": "Restaurants & Traiteurs",
       "restaurantsDesc": "Des produits frais et de qualité pour sublimer vos plats",
       "canteens": "Cantines & Écoles",
@@ -29,29 +28,33 @@
       "individualsDesc": "Livraison à domicile pour vos recettes du quotidien"
     },
     "productsPreview": {
-      "title": "Nos Champignons",
-      "subtitle": "Découvrez notre sélection de champignons frais cultivés dans le Jura",
+      "title": "Découvrez notre sélection de champignons frais cultivés au pied du Jura",
+      "subtitle": "Choisissez nos champignons",
       "viewAll": "Voir tous nos champignons"
     }
   },
   "products": {
     "title": "Nos Champignons",
-    "subtitle": "Des champignons frais cultivés avec passion dans le Jura",
+    "subtitle": "Des champignons frais cultivés avec passion au pied du Jura",
+    "pleuroteBlanche": {
+      "name": "Pleurote blanche",
+      "description": "La pleurote blanche offre une texture délicate et une saveur douce et subtile. Idéale poêlée, en sauce ou dans les risottos."
+    },
+    "pleurotePanicaut": {
+      "name": "Pleurote de Panicaut",
+      "description": "Le pleurote de Panicaut, ou pleurote du panicaut, se distingue par sa chair ferme et son goût prononcé. Excellent grillé ou en accompagnement de viandes."
+    },
+    "blackPearl": {
+      "name": "Black Pearl",
+      "description": "Le Black Pearl est un champignon au chapeau sombre et à la texture charnue. Son goût intense en fait un ingrédient de choix pour les plats relevés."
+    },
     "shiitake": {
       "name": "Shiitaké",
       "description": "Le shiitaké, originaire d'Asie, est apprécié pour sa chair ferme et son goût umami prononcé. Parfait pour les sautés, soupes et plats asiatiques."
     },
-    "pleurote": {
-      "name": "Pleurote",
-      "description": "Le pleurote en huître offre une texture délicate et une saveur douce. Idéal poêlé, en sauce ou dans les risottos."
-    },
-    "champignonParis": {
-      "name": "Champignon de Paris",
-      "description": "Le classique indémodable. Polyvalent et délicieux, il s'accommode de toutes les cuisines et se déguste cru ou cuit."
-    },
-    "maitake": {
-      "name": "Maitaké",
-      "description": "Aussi appelé « poule des bois », le maitaké possède une texture unique et des notes boisées. Excellent en fricassée ou en accompagnement."
+    "criniereLion": {
+      "name": "Crinière de lion",
+      "description": "Aussi appelé « barbe de saturnin », la crinière de lion offre une texture unique en filaments et des notes délicates. Délicieuse poêlée ou en bouillon."
     }
   },
   "contact": {
@@ -74,7 +77,11 @@
       "phone": "Téléphone",
       "email": "Email",
       "address": "Adresse",
-      "addressValue": "1234 Route des Champignons, 39200 Saint-Claude, Jura"
+      "hours": "Horaires",
+      "phoneValue": "+33 6 09 33 15 67",
+      "emailValue": "contact@jurachampi.fr",
+      "addressValue": "250, rue de l'Etournelle Techno Parc de Collonges, 01550 Collonges",
+      "hoursValue": "Du lundi au vendredi — De 9h à 12h et de 14h à 18h"
     }
   },
     "findUs": {
@@ -82,25 +89,23 @@
     "subtitle": "Notre histoire, nos locaux et où nous retrouver",
     "history": {
       "title": "Notre histoire",
-      "paragraph1": "Jura Champi est née en 2018 de la passion de Laurence et Aurélien pour les champignons et les terres du Jura. Après des années dans l'agriculture conventionnelle, ils se sont spécialisés dans la culture de champignons de qualité, dans le respect de l'environnement.",
-      "paragraph2": "Installés au cœur du massif jurassien, Laurence et Aurélien cultivent leurs champignons dans d'anciennes caves naturelles offrant hygrométrie et température idéales. Une approche traditionnelle alliée à un savoir-faire moderne pour des produits d'exception toute l'année."
+      "paragraph1": "Jura Champi est une micro ferme artisanale où nous cultivons nos champignons dans le respect de l'agriculture biologique et en s'efforçant de préserver la nature et l'environnement qui nous entoure. Située dans le petit village de Collonges, en bordure du Jura. Notre petite ferme se trouve dans le département de l'Ain proche de la frontière Suisse."
     },
     "premises": {
       "title": "Nos locaux",
-      "description": "Notre exploitation se trouve à Saint-Claude, au cœur du Haut-Jura. Les caves naturelles qui abritent nos cultures sont le secret de la qualité de nos champignons : fraîcheur constante, humidité naturelle, et ce terroir si particulier qui fait la renommée du Jura.",
-      "visit": "Sur rendez-vous pour les professionnels et les curieux !"
+      "description": "Notre ferme se trouve à Collonges le long du Jura. Nos champignons sont cultivés dans le respect de l'agriculture biologique.",
+      "address": "250, rue de l'Etournelle Techno Parc de Collonges, 01550 Collonges"
     },
     "whereToFind": {
       "title": "Où nous retrouver ?",
-      "wordplay": "En plus de nous trouver dans vos assiettes… vous pouvez également nous retrouver !",
       "online": {
         "title": "En ligne & au téléphone",
         "description": "Commandez ou posez vos questions par email ou téléphone. Nous répondons avec plaisir et organisons les livraisons selon vos besoins."
       },
       "markets": {
-        "title": "Sur les marchés du Jura",
+        "title": "Sur les marchés",
         "description": "Venez nous dire bonjour et déguster nos champignons sur les marchés de producteurs. L'occasion d'échanger, de découvrir nos nouveautés et de repartir avec le panier garni !",
-        "list": "Lons-le-Saunier, Arbois, Saint-Claude, Foncine-le-Haut, Morez, Champagnole… et bien d'autres selon les saisons."
+        "list": "Liste des marchés à venir."
       }
     }
   },

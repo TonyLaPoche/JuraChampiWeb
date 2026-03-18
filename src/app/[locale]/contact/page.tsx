@@ -150,10 +150,10 @@ export default function ContactPage() {
                       {t("info.phone")}
                     </p>
                     <a
-                      href="tel:+33384512345"
+                      href="tel:+33609331567"
                       className="text-lg font-semibold text-emerald-900 hover:text-emerald-600"
                     >
-                      +33 3 84 51 23 45
+                      {t("info.phoneValue")}
                     </a>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export default function ContactPage() {
                       href="mailto:contact@jurachampi.fr"
                       className="text-lg font-semibold text-emerald-900 hover:text-emerald-600"
                     >
-                      contact@jurachampi.fr
+                      {t("info.emailValue")}
                     </a>
                   </div>
                 </div>
@@ -179,6 +179,17 @@ export default function ContactPage() {
                     </p>
                     <p className="text-lg text-emerald-900">
                       {t("info.addressValue")}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span className="text-2xl">🕐</span>
+                  <div>
+                    <p className="text-sm font-medium text-emerald-600">
+                      {t("info.hours")}
+                    </p>
+                    <p className="text-lg text-emerald-900">
+                      {t("info.hoursValue")}
                     </p>
                   </div>
                 </div>

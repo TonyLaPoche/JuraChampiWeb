@@ -20,10 +20,10 @@ export async function generateMetadata({
       ? "Jura Champi | Producteur et fournisseur de champignons frais dans le Jura"
       : "Jura Champi | Fresh mushroom producer and supplier in the Jura",
     description: isFr
-      ? "Jura Champi - Producteur et fournisseur de champignons frais dans le Jura. Shiitaké, pleurote, champignon de Paris. Livraison restaurants, cantines, traiteurs et particuliers. Marchés à Lons-le-Saunier, Arbois, Saint-Claude."
-      : "Jura Champi - Fresh mushroom producer and supplier in the Jura. Shiitake, oyster mushroom, button mushroom. Delivery to restaurants, canteens, caterers and individuals.",
+      ? "Jura Champi - Culture de champignons frais en bordure du Jura. Pleurote blanche, Pleurote de Panicaut, Black Pearl, Shiitaké, Crinière de lion. Livraison restaurants, traiteurs, collectivités et particuliers. Collonges, Ain."
+      : "Jura Champi - Fresh mushroom cultivation on the edge of the Jura. Oyster mushroom, Shiitake, Lion's mane. Delivery to restaurants, caterers, communities and individuals. Collonges, Ain.",
     keywords: isFr
-      ? ["Jura champi", "Jura champignons", "fournisseur champignons Jura", "producteur champignons frais", "champignons Saint-Claude", "livraison champignons"]
+      ? ["Jura champi", "champignons Collonges", "champignons Ain", "producteur champignons frais", "champignons bio Jura", "livraison champignons"]
       : ["Jura mushrooms", "mushroom producer Jura", "fresh mushrooms France"],
   };
 }
@@ -72,8 +72,6 @@ export default async function HomePage({
             </h2>
             <div className="mt-8 space-y-6 text-lg leading-relaxed text-emerald-800/90">
               <p>{t("story.paragraph1")}</p>
-              <p>{t("story.paragraph2")}</p>
-              <p>{t("story.paragraph3")}</p>
             <div className="mt-6">
               <Link
                 href="/nous-trouver"
@@ -93,6 +91,9 @@ export default async function HomePage({
           <h2 className="text-center text-3xl font-bold text-emerald-900 sm:text-4xl">
             {t("clients.title")}
           </h2>
+          <p className="mx-auto mt-6 max-w-3xl text-center text-lg text-emerald-700">
+            {t("clients.intro")}
+          </p>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl bg-white p-6 shadow-lg transition-shadow hover:shadow-xl">
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-100 text-2xl">
@@ -142,23 +143,27 @@ export default async function HomePage({
               {t("productsPreview.subtitle")}
             </p>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {[
+              {
+                img: "https://images.unsplash.com/photo-1615485290382-441e4d048cb5?w=400&h=300&fit=crop",
+                name: "Pleurote blanche",
+              },
+              {
+                img: "https://images.unsplash.com/photo-1615485290382-441e4d048cb5?w=400&h=300&fit=crop",
+                name: "Pleurote de Panicaut",
+              },
+              {
+                img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+                name: "Black Pearl",
+              },
               {
                 img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
                 name: "Shiitaké",
               },
               {
-                img: "https://images.unsplash.com/photo-1615485290382-441e4d048cb5?w=400&h=300&fit=crop",
-                name: "Pleurote",
-              },
-              {
-                img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop",
-                name: "Champignon de Paris",
-              },
-              {
                 img: "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=400&h=300&fit=crop",
-                name: "Maitaké",
+                name: "Crinière de lion",
               },
             ].map((product) => (
               <div
