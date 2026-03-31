@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { ProductDetailCollapsibleGroup } from "@/components/ProductDetailCollapsibleGroup";
 
 const DETAIL_KEYS = [
   "origin",
@@ -32,14 +33,5 @@ export async function ProductDetailSections({
 
   if (blocks.length === 0) return null;
 
-  return (
-    <div className="mt-8 space-y-6 border-t border-jc-300/50 pt-8">
-      {blocks.map(({ label, text }) => (
-        <div key={label}>
-          <h3 className="text-lg font-semibold text-jc-900">{label}</h3>
-          <p className="mt-2 text-base leading-relaxed text-jc-800">{text}</p>
-        </div>
-      ))}
-    </div>
-  );
+  return <ProductDetailCollapsibleGroup blocks={blocks} />;
 }

@@ -1,8 +1,8 @@
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
-import Image from "next/image";
 import { routing } from "@/i18n/routing";
 import { ProductDetailSections } from "@/components/ProductDetailSections";
+import { MushroomProductCard } from "@/components/MushroomProductCard";
 import { champignons } from "@/lib/assets";
 
 export function generateStaticParams() {
@@ -65,45 +65,29 @@ export default async function ProduitsPage({
 
   return (
     <div className="bg-jc-page">
-      <section className="bg-gradient-to-b from-jc-100 to-jc-page py-12 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-jc-900 sm:text-4xl">
+      <section className="relative overflow-hidden bg-gradient-to-b from-jc-100 to-jc-page py-12 sm:py-16">
+        <div className="pointer-events-none absolute -right-24 top-10 h-64 w-64 rounded-full bg-jc-300/25 blur-3xl" aria-hidden />
+        <div className="pointer-events-none absolute -left-16 bottom-0 h-48 w-48 rounded-full bg-jc-400/20 blur-3xl" aria-hidden />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h1 className="text-3xl font-bold tracking-tight text-jc-900 sm:text-4xl">
             {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-jc-700">{t("subtitle")}</p>
+          <p className="mt-4 max-w-2xl text-lg text-jc-700">{t("subtitle")}</p>
         </div>
       </section>
 
-      <section className="py-12 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="space-y-16">
-            {products.map((product, index) => (
-              <div
+      <section className="py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col gap-10 md:gap-12">
+            {products.map((product) => (
+              <MushroomProductCard
                 key={product.id}
-                className={`flex flex-col gap-8 lg:flex-row lg:items-start ${
-                  index % 2 === 1 ? "lg:flex-row-reverse" : ""
-                }`}
+                imageSrc={product.img}
+                name={t(`${product.translationKey}.name`)}
+                description={t(`${product.translationKey}.description`)}
               >
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-jc-300/40 lg:w-1/2">
-                  <Image
-                    src={product.img}
-                    alt={t(`${product.translationKey}.name`)}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                    priority={index < 2}
-                  />
-                </div>
-                <div className="lg:w-1/2 lg:px-12">
-                  <h2 className="text-2xl font-bold text-jc-900 sm:text-3xl">
-                    {t(`${product.translationKey}.name`)}
-                  </h2>
-                  <p className="mt-4 text-lg leading-relaxed text-jc-800">
-                    {t(`${product.translationKey}.description`)}
-                  </p>
-                  <ProductDetailSections translationKey={product.translationKey} />
-                </div>
-              </div>
+                <ProductDetailSections translationKey={product.translationKey} />
+              </MushroomProductCard>
             ))}
           </div>
         </div>

@@ -8,7 +8,7 @@ Voici le contenu actuel du site Jura Champi.
 https://jura-champi-web.vercel.app/fr
 Merci de le relire, de le modifier à votre guise et de me renvoyer vos versions. j’adapterons le site en fonction 
 de vos retours.
-
+-
 Pour chaque section, vous trouverez :
 - Des questions pour vous guider
 - Le texte actuel (que vous pouvez modifier directement)
@@ -31,8 +31,8 @@ SECTION 1 - PAGE D'ACCUEIL
 --- Bandeau principal (en haut de page) ---
 
 Questions :
-- La phrase d'accroche reflète-t-elle bien votre activité ?
-- Souhaitez-vous modifier le bouton d'appel à l'action ?
+- La phrase d'accroche reflète-t-elle bien votre activité ? Faites le pleins de saveurs 
+- Souhaitez-vous modifier le bouton d'appel à l'action ? 
 
 CONTENU ACTUEL :
 Titre : Jura Champi
@@ -40,17 +40,18 @@ Sous-titre : Producteur de champignons frais dans le Jura
 Bouton : Nous contacter
 
 VOS MODIFICATIONS :
-Titre : 
-Sous-titre : 
-Bouton : 
+Titre : OK
+Sous-titre : Culture de champignons frais en bordure du Jura
+Bouton :OK
+
 
 --------------------------------------------------------------------------------
 
 --- Notre Histoire ---
 
 Questions :
-- L'année de création (2018) est-elle correcte ?
-- Souhaitez-vous ajouter des détails sur votre parcours ?
+- L'année de création (2018) est-elle correcte ? La création de notre ferme à champignon est toute récente, elle a vue le jour début avril 2026
+- Souhaitez-vous ajouter des détails sur votre parcours ? 
 - Des éléments à corriger ou à préciser ?
 
 CONTENU ACTUEL :
@@ -75,9 +76,9 @@ champignons frais, cultivés localement, livrés avec le sourire.
 
 Lien : Découvrir notre histoire et où nous trouver →
 
-VOS MODIFICATIONS :
-Paragraphe 1 : 
-
+VOS MODIFICATIONS : 
+Paragraphe 1 : Jura Champi est une micro ferme artisanale où nous cultivons nos champignons dans le respect de l’agriculture biologique et en s’efforçant de préserver la nature et l’environnement qui nous entoure.
+Située dans le petit village de Collonges, en bordure du Jura. Notre petite ferme se trouve dans le département de l’Ain proche de la frontière Suisse 
 Paragraphe 2 : 
 
 Paragraphe 3 : 
@@ -88,20 +89,20 @@ Paragraphe 3 :
 
 Questions :
 - Ces trois cibles (restaurants, cantines, particuliers) correspondent-elles 
-  à votre activité ?
-- Souhaitez-vous en ajouter ou en modifier ?
+  à votre activité ? Oui (collectivités locales)
+- Souhaitez-vous en ajouter ou en modifier ? Les traiteurs, magasins spécialisés dans le local et bio. Également les AMAP et GAEC
 - Les descriptions sont-elles fidèles ?
 
 CONTENU ACTUEL :
 Titre : À qui s'adressent nos champignons ?
 
-Restaurants & Traiteurs : Des produits frais et de qualité pour sublimer vos plats
+Restaurants & Traiteurs : Des produits frais et de qualité pour sublimer vos plats.  
 
-Cantines & Écoles : Des approvisionnements réguliers pour des repas locaux et sains
+Cantines & Écoles : Des approvisionnements réguliers pour des repas locaux et sains OK
 
 Particuliers : Livraison à domicile pour vos recettes du quotidien
 
-VOS MODIFICATIONS :
+VOS MODIFICATIONS : Nos champignons s’adressent non seulement aux restaurateurs, traiteurs, aux collectivités, magasins spécialisés en alimentation biologique et autres commerces. Les particuliers peuvent aussi être livrés directement chez eux. NOUS CONTACTER :
 Restaurants & Traiteurs : 
 
 Cantines & Écoles : 
@@ -120,9 +121,9 @@ Titre : Nos Champignons
 Sous-titre : Découvrez notre sélection de champignons frais cultivés dans le Jura
 Bouton : Voir tous nos champignons
 
-VOS MODIFICATIONS :
-Titre : 
-Sous-titre : 
+VOS MODIFICATIONS : OK
+Titre : Découvrez notre sélection de champignons frais cultivés au pied du Jura
+Sous-titre : Choisissez nos champignons
 
 ======================================================================
 SECTION 2 - PAGE "NOUS TROUVER"
@@ -131,8 +132,8 @@ SECTION 2 - PAGE "NOUS TROUVER"
 --- Notre histoire (version détaillée) ---
 
 Questions :
-- Cette version est-elle identique ou complémentaire à celle de l'accueil ?
-- Souhaitez-vous des textes différents entre les deux pages ?
+- Cette version est-elle identique ou complémentaire à celle de l'accueil ? NON 
+- Souhaitez-vous des textes différents entre les deux pages ? NON 
 
 CONTENU ACTUEL :
 Titre : Notre histoire
@@ -157,9 +158,9 @@ Paragraphe 2 :
 --- Nos locaux ---
 
 Questions :
-- L'adresse (Saint-Claude) est-elle correcte ?
-- Souhaitez-vous préciser l'adresse exacte ?
-- La formule "Sur rendez-vous" vous convient-elle ?
+- L'adresse (Saint-Claude) est-elle correcte ? NON 
+- Souhaitez-vous préciser l'adresse exacte ? 250, rue de l’Etournelle Techno Parc de Collonges 01550 COLLONGES
+- La formule "Sur rendez-vous" vous convient-elle ?NON 
 
 CONTENU ACTUEL :
 Titre : Nos locaux
@@ -172,17 +173,17 @@ particulier qui fait la renommée du Jura.
 Visite : Sur rendez-vous pour les professionnels et les curieux !
 
 VOS MODIFICATIONS :
-Description : 
+Description : Notre ferme se trouve à Collonges le long du Jura. Nos champignon sont cultivés 
 
-Visite : 
+Visite : NON
 
 --------------------------------------------------------------------------------
 
 --- Où nous retrouver ? ---
 
 Questions :
-- Le jeu de mot "En plus de nous trouver dans vos assiettes…" vous plaît-il ?
-- La liste des marchés est-elle exacte ? À compléter ou corriger ?
+- Le jeu de mot "En plus de nous trouver dans vos assiettes…" vous plaît-il ? NON
+- La liste des marchés est-elle exacte ? À compléter ou corriger ? Pour les marchés on sait pas encore 
 - Jours et horaires des marchés à ajouter ?
 
 CONTENU ACTUEL :
@@ -211,7 +212,7 @@ SECTION 3 - PAGE "NOS CHAMPIGNONS"
 ======================================================================
 
 Questions :
-- Cultivez-vous tous ces champignons ? D'autres à ajouter ?
+- Cultivez-vous tous ces champignons ? D'autres à ajouter ? Pleurote blanche, Pleurote de Panicaut, Black Pearl, Shiitaké et Crinière de lion
 - Les descriptions sont-elles correctes ?
 - Avez-vous des recettes ou conseils de préparation à partager ?
 
@@ -234,15 +235,94 @@ Aussi appelé « poule des bois », le maitaké possède une texture unique et d
 notes boisées. Excellent en fricassée ou en accompagnement.
 
 VOS MODIFICATIONS :
-Shiitaké : 
+🍄‍🟫 LE SHIITAKE : 
+
+ ▪️Description :
+Aussi appelé champignon parfumé, il se distingue par son grand chapeau qui varie du brun clair au brun foncé, et est parfois tacheté de blanc. Pouvant atteindre de 5 à 15 cm de diamètre, il est mou et soyeux au toucher. A l’état sauvage, il pousse dans les forêts de feuillus. Son nom provient du Japonais Shii du nom de l’arbre le Castanopsis Cuspidata qui se rapproche du chêne et du hêtre. 
+
+ ▪️Son origine :
+Le Shiitaké provient du continent asiatique, il est cultivé traditionnellement en Chine et au Japon.
+
+▪️Son goût :
+Il rappel la saveur de la viande.
+Son goût est souvent décrit comme un délice charnu et savoureux qui approfondit la saveur. 
+Arôme très caractéristiques d’oignon et d’autres légumes soufrés (choux cuits, poireaux…)
+
+▪️En cuisine ; 
+15 à 20 minutes. 20 minutes est le plus idéal.
+En poêlé ou en bouillon. 
+
+▪️Les bienfaits du Shiitaké :
+La Lentinane est considérée comme un immunostimulant extrait du Shiitaké a démontré sa capacité à inhiber l’accumulation de graisse igin : dans le foie, à améliorer la fonction hépatique. 
+
+▪️Ses propriétés :
+Il soutient le système immunitaire pour tonifier l’organisme et renforcer les démences naturelles. 
+Riche en antioxydants, joue un rôle bénéfique dans les processus de vieillissement cellulaires et donc cutanés.
+Riche en nutriments :    
+De nombreux minéraux : potassium, manganèse, magnésium, fer et phosphore. 
+De vitamines : D, B1, B2, B6, B12, B3.
+Ainsi en lipides et des protéines en bonnes quantités. 
+Il est utilisé en cuisine et également à des fins thérapeutiques; 
+
+
 
 Pleurote : 
+🍄‍🟫 LE PLEUROTE BLANC: 
 
-Champignon de Paris : 
 
-Maitaké : 
+Champignon de Paris : NON 
+
+Maitaké : NON 
 
 Autres champignons à ajouter : 
+🍄‍🟫LE PLEUROTE de PANICAUT :
+
+▪️Description : 
+Le pleurote de Panicaut fait partie de la vaste famille des pleurotes qui sont l’un des champignons les plus connus et consommés. Son aspect est un peu différent, on le reconnaît à son chapeau charnu et plus petit, de couleur brunâtre avec un pied joufflu qui le caractérise. Il est blanc comme la partie intérieur de son chapeau.
+
+▪️Origine : 
+Son nom provient de la plante sauvage Le Panicaut qui ressemble à un chardon, le pleurote est étroitement lié à elle en poussant sur ses souches mortes. Il est aussi connu sous le nom Eryngii. 
+Le pleurote de Panicaut tire ses origines de l’Europe méridionale, plus particulièrement de l’Espagne et du Sud de la France.
+
+▪️Son goût :
+Doux mais délicieux. Sa chair ferme, épaisse et blanche libère une odeur agréable. 
+
+▪️En cuisine :
+La douceur du pleurote lui donne de nombreuses possibilités culinaires.
+Grillé : coupé en tranches et juste sauté à la poêle avec de l’huile, du sel et du poivre. On peut aussi le faire sauter avec de la crème et des petits légumes.
+Mijotés : en ragoût de viande et autres plats mijotés.
+Mais aussi en plats de pâtes et de riz : avec de la sauce tomates et un peu de pleurote haché. 
+Le pleurote de Panicaut se mange aussi cru en sandwich, en salade. 
+Il possède une bonne durée de conservation, stocké dans un endroit frais. 
+
+▪️Les bienfaits :
+Le pleurote de Panicaut et les pleurotes en général ont de multiple bienfaits :
+Booste le système immunitaire 
+Stimule la production de globules blancs
+Source de fibres, cette source de nutriments aide à maintenir un bon équilibre du microbiote
+Protège l’organisme des troubles liés au vieillissement, antioxydants
+Action anti-inflammatoire
+Soutient le système nerveux
+
+▪️Ses propriétés :
+Il est riche en vitamines et minéraux :
+vitamines B2, B3, B5
+Fer
+Phosphore
+Cuivre
+Potassium,…
+
+
+🍄‍🟫BLACK PEARL 
+
+▪️Description :
+
+▪️Origine :
+Variété appartenant à la famille des pleurotes, elle est apparue il y a quelques années. Elle provient d’une hybridation entre des souches de pleurotes gris européens et japonais.
+
+
+
+🍄‍🟫 CRINIÈRE de LION 
 
 ======================================================================
 SECTION 4 - PAGE "CONTACT"
@@ -261,10 +341,10 @@ Email : contact@jurachampi.fr
 Adresse : 1234 Route des Champignons, 39200 Saint-Claude, Jura
 
 VOS COORDONNÉES :
-Téléphone : 
+Téléphone : +33 06 09 33 15 67
 Email : 
-Adresse complète : 
-Horaires / disponibilité : 
+Adresse complète : 250, rue de l’Etournelle Techno Parc de Collonges 01550 COLLONGES 
+Horaires / disponibilité : Du lundi au vendredi / De 9h à 12 h et de 14h à 18 h 
 
 ======================================================================
 SECTION 5 - ÉLÉMENTS GÉNÉRAUX
@@ -272,12 +352,12 @@ SECTION 5 - ÉLÉMENTS GÉNÉRAUX
 
 Questions :
 - Avez-vous des photos à nous fournir (locaux, champignons, marchés, vous) ?
-- Un logo existant ?
+- Un logo existant ? OUI 
 - Des mentions légales ou informations à ajouter ?
 
 VOS RÉPONSES :
-Photos : 
-Logo : 
+Photos : Pas encore de photos, quand on aura fait les travaux dans le local
+Logo : OUI
 Autres : 
 ======================================================================
 FIN DU QUESTIONNAIRE
