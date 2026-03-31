@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { routing } from "@/i18n/routing";
 import { champignons } from "@/lib/assets";
+import { HomeHeroParallax } from "@/components/HomeHeroParallax";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -41,28 +42,11 @@ export default async function HomePage({
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-jc-100 to-jc-page">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1615485290382-441e4d048cb5?w=1920')] bg-cover bg-center opacity-20" />
-        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-jc-900 sm:text-5xl md:text-6xl">
-              {t("hero.title")}
-            </h1>
-            <p className="mx-auto mt-4 max-w-2xl text-lg text-jc-700 sm:text-xl">
-              {t("hero.subtitle")}
-            </p>
-            <div className="mt-8">
-              <Link
-                href="/contact"
-                className="inline-flex items-center rounded-lg bg-jc-600 px-6 py-3 text-base font-semibold text-white shadow-lg transition-all hover:bg-jc-800 hover:shadow-xl"
-              >
-                {t("hero.cta")}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HomeHeroParallax
+        title={t("hero.title")}
+        subtitle={t("hero.subtitle")}
+        cta={t("hero.cta")}
+      />
 
       {/* Story */}
       <section className="bg-jc-page py-16 sm:py-24">
