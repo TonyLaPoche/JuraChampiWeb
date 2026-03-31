@@ -31,23 +31,23 @@ export default async function MentionsLegalesPage({
   const t = await getTranslations("legal.mentions");
 
   return (
-    <div className="bg-white">
-      <section className="border-b border-emerald-100 bg-emerald-50/30 py-12">
+    <div className="bg-jc-page">
+      <section className="border-b border-jc-200 bg-jc-100/40 py-12">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-emerald-900">{t("title")}</h1>
-          <p className="mt-4 text-emerald-800">{t("intro")}</p>
+          <h1 className="text-3xl font-bold text-jc-900">{t("title")}</h1>
+          <p className="mt-4 text-jc-800">{t("intro")}</p>
         </div>
       </section>
 
       <section className="py-12">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-emerald max-w-none space-y-8 text-emerald-900">
+          <div className="prose prose-neutral prose-headings:text-jc-900 max-w-none space-y-8 text-jc-900">
             <div>
               <h2 className="text-xl font-semibold">1. Éditeur du site</h2>
               <p className="mt-2">
                 <strong>Raison sociale :</strong> Jura Champi<br />
                 <strong>Forme juridique :</strong> [À compléter : SARL, SAS, auto-entrepreneur, etc.]<br />
-                <strong>Siège social :</strong> 1234 Route des Champignons, 39200 Saint-Claude, Jura<br />
+                <strong>Siège social :</strong> 250, rue de l&apos;Etournelle Techno Parc de Collonges, 01550 Collonges<br />
                 <strong>SIRET :</strong> [À compléter]<br />
                 <strong>RCS :</strong> [À compléter : RCS Lons-le-Saunier, numéro]<br />
                 <strong>Directeur de la publication :</strong> Laurence et Aurélien
@@ -74,7 +74,7 @@ export default async function MentionsLegalesPage({
               <h2 className="text-xl font-semibold">4. Données personnelles</h2>
               <p className="mt-2">
                 Les données collectées via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes. Pour plus d&apos;informations, consultez notre{" "}
-                <Link href="/confidentialite" className="font-medium text-emerald-600 underline hover:text-emerald-700">
+                <Link href="/confidentialite" className="font-medium text-jc-600 underline hover:text-jc-700">
                   Politique de confidentialité
                 </Link>.
               </p>

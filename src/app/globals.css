@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
+/* Palette « Couleurs logo » (ref. public/palette couleur logo jura champi.jpeg) :
+   arrière-plan #E4E4DE, texte #424959 / #707584, montagne #B5BCAF / #99A293, cerclage #7F7465… */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #e4e4de;
+  --foreground: #424959;
+  --jc-page: #e4e4de;
+  --jc-text: #424959;
+  --jc-text-muted: #707584;
+  --jc-sage: #99a293;
+  --jc-mountain: #b5bcaf;
+  --jc-taupe-dark: #7f7465;
+  --jc-taupe-mid: #8c8172;
+  --jc-taupe-light: #9b9183;
 }
 
 @theme inline {
@@ -10,14 +20,64 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-jc-page: #e4e4de;
+  --color-jc-50: #f2f3ef;
+  --color-jc-100: #e8eae4;
+  --color-jc-200: #d4d8cf;
+  --color-jc-300: #b5bcaf;
+  --color-jc-400: #99a293;
+  --color-jc-500: #8c8172;
+  --color-jc-600: #7f7465;
+  --color-jc-700: #707584;
+  --color-jc-800: #4f5565;
+  --color-jc-900: #424959;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--jc-page);
+  color: var(--jc-text);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Header — entrées menu mobile (désactivé si prefers-reduced-motion) */
+@keyframes jc-header-drawer-in {
+  from {
+    opacity: 0;
+    transform: translateY(-0.4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes jc-header-link-in {
+  from {
+    opacity: 0;
+    transform: translateX(-0.45rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.jc-header-mobile-drawer {
+  animation: jc-header-drawer-in 0.22s ease-out both;
+}
+
+.jc-header-mobile-link {
+  animation: jc-header-link-in 0.28s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jc-header-mobile-drawer,
+  .jc-header-mobile-link {
+    animation: none;
+  }
 }

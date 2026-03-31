@@ -23,8 +23,8 @@ export async function generateMetadata({
       ? "Où trouver Jura Champi : nos locaux à Collonges (Ain), en bordure du Jura. Contact et livraison champignons frais. Marchés à venir."
       : "Where to find Jura Champi: our premises in Collonges (Ain), on the edge of the Jura. Contact and fresh mushroom delivery.",
     keywords: isFr
-      ? ["Jura Champi marchés", "champignons Saint-Claude", "marchés Jura", "producteur champignons Lons-le-Saunier"]
-      : ["Jura Champi markets", "mushrooms Saint-Claude", "Jura markets"],
+      ? ["Jura Champi", "champignons Collonges", "Ain", "marchés producteurs", "Nous trouver"]
+      : ["Jura Champi", "Collonges", "markets", "find us"],
   };
 }
 
@@ -39,15 +39,15 @@ export default async function NousTrouverPage({
   const t = await getTranslations("findUs");
 
   return (
-    <div className="bg-white">
+    <div className="bg-jc-page">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-emerald-50 to-white">
+      <section className="relative overflow-hidden bg-gradient-to-b from-jc-100 to-jc-page">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1615485290382-441e4d048cb5?w=1920')] bg-cover bg-center opacity-15" />
         <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
-          <h1 className="text-3xl font-bold tracking-tight text-emerald-900 sm:text-4xl">
+          <h1 className="text-3xl font-bold tracking-tight text-jc-900 sm:text-4xl">
             {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-emerald-700">{t("subtitle")}</p>
+          <p className="mt-4 text-lg text-jc-700">{t("subtitle")}</p>
         </div>
       </section>
 
@@ -55,10 +55,10 @@ export default async function NousTrouverPage({
       <section className="py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl">
-            <h2 className="text-2xl font-bold text-emerald-900 sm:text-3xl">
+            <h2 className="text-2xl font-bold text-jc-900 sm:text-3xl">
               {t("history.title")}
             </h2>
-            <div className="mt-6 space-y-4 text-lg leading-relaxed text-emerald-800/90">
+            <div className="mt-6 space-y-4 text-lg leading-relaxed text-jc-800/90">
               <p>{t("history.paragraph1")}</p>
             </div>
           </div>
@@ -66,17 +66,17 @@ export default async function NousTrouverPage({
       </section>
 
       {/* Nos locaux */}
-      <section className="bg-emerald-50/50 py-12 sm:py-16">
+      <section className="bg-jc-100/60 py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-2xl font-bold text-emerald-900 sm:text-3xl">
+              <h2 className="text-2xl font-bold text-jc-900 sm:text-3xl">
                 {t("premises.title")}
               </h2>
-              <p className="mt-6 text-lg leading-relaxed text-emerald-800">
+              <p className="mt-6 text-lg leading-relaxed text-jc-800">
                 {t("premises.description")}
               </p>
-              <p className="mt-4 text-emerald-700">
+              <p className="mt-4 text-jc-700">
                 {t("premises.address")}
               </p>
             </div>
@@ -96,42 +96,42 @@ export default async function NousTrouverPage({
       {/* Où nous retrouver - avec le jeu de mot */}
       <section className="py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-emerald-900 sm:text-3xl">
+          <h2 className="text-2xl font-bold text-jc-900 sm:text-3xl">
             {t("whereToFind.title")}
           </h2>
 
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             {/* En ligne & téléphone */}
-            <div className="rounded-2xl border border-emerald-200 bg-white p-6 shadow-md">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-100 text-2xl">
+            <div className="rounded-2xl border border-jc-300 bg-jc-page p-6 shadow-md">
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-jc-200 text-2xl">
                 📞
               </div>
-              <h3 className="mt-4 text-xl font-semibold text-emerald-900">
+              <h3 className="mt-4 text-xl font-semibold text-jc-900">
                 {t("whereToFind.online.title")}
               </h3>
-              <p className="mt-2 text-emerald-700">
+              <p className="mt-2 text-jc-700">
                 {t("whereToFind.online.description")}
               </p>
               <Link
                 href="/contact"
-                className="mt-4 inline-block font-semibold text-emerald-600 hover:text-emerald-700"
+                className="mt-4 inline-block font-semibold text-jc-600 hover:text-jc-700"
               >
                 → Nous contacter
               </Link>
             </div>
 
             {/* Marchés */}
-            <div className="rounded-2xl border border-emerald-200 bg-white p-6 shadow-md">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-100 text-2xl">
+            <div className="rounded-2xl border border-jc-300 bg-jc-page p-6 shadow-md">
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-jc-200 text-2xl">
                 🛒
               </div>
-              <h3 className="mt-4 text-xl font-semibold text-emerald-900">
+              <h3 className="mt-4 text-xl font-semibold text-jc-900">
                 {t("whereToFind.markets.title")}
               </h3>
-              <p className="mt-2 text-emerald-700">
+              <p className="mt-2 text-jc-700">
                 {t("whereToFind.markets.description")}
               </p>
-              <p className="mt-4 text-sm font-medium text-emerald-800">
+              <p className="mt-4 text-sm font-medium text-jc-800">
                 {t("whereToFind.markets.list")}
               </p>
             </div>

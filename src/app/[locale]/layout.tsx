@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props) {
   };
 
   const descriptions: Record<string, string> = {
-    fr: "Jura Champi - Producteur de champignons frais dans le Jura. Fournisseur pour restaurants, cantines, traiteurs et particuliers. Livraison locale.",
-    en: "Jura Champi - Fresh mushroom producer in the Jura. Supplier for restaurants, canteens, caterers and individuals. Local delivery.",
+    fr: "Jura Champi — culture de champignons bio au pied du Jura (Collonges, Ain). Shiitaké, pleurote, Black Pearl, crinière de lion. Livraison pros et particuliers.",
+    en: "Jura Champi — organic mushrooms at the foot of the Jura (Collonges, Ain). Shiitake, oyster, Black Pearl, lion's mane. Delivery for professionals and individuals.",
   };
 
   return {
@@ -34,9 +34,9 @@ export async function generateMetadata({ params }: Props) {
     description: descriptions[locale] ?? descriptions.fr,
     keywords: [
       "Jura champi",
-      "Jura champignons",
-      "fournisseur de champignons Jura",
-      "producteur champignons Jura",
+      "champignons Collonges",
+      "champignons Ain",
+      "producteur champignons bio",
       "champignons frais Jura",
     ],
     alternates: {
@@ -66,36 +66,46 @@ export default async function LocaleLayout({ children, params }: Props) {
     name: "Jura Champi",
     alternateName: "Jura Champignons",
     url: "https://jurachampi.fr",
-    description: "Producteur et fournisseur de champignons frais dans le Jura. Shiitaké, pleurote, champignon de Paris. Livraison restaurants, cantines, traiteurs et particuliers.",
-    image: "https://jurachampi.fr/og-image.jpg",
+    description:
+      "Micro ferme artisanale à Collonges (Ain), en bordure du Jura. Champignons bio : Shiitaké, pleurote, Black Pearl, crinière de lion. Livraison restaurants, collectivités et particuliers.",
+    image:
+      "https://jurachampi.fr/logo%20jura%20champi%20fond%20transparent.png",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "1234 Route des Champignons",
-      addressLocality: "Saint-Claude",
-      postalCode: "39200",
-      addressRegion: "Jura",
+      streetAddress: "250, rue de l'Etournelle, Techno Parc de Collonges",
+      addressLocality: "Collonges",
+      postalCode: "01550",
+      addressRegion: "Ain",
       addressCountry: "FR",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 46.3917,
-      longitude: 5.8642,
+      latitude: 46.339,
+      longitude: 5.916,
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+33-3-84-51-23-45",
+      telephone: "+33-6-09-33-15-67",
       contactType: "customer service",
       email: "contact@jurachampi.fr",
       areaServed: ["Jura", "Franche-Comté", "France"],
       availableLanguage: ["French", "English"],
     },
     priceRange: "€€",
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "08:00",
-      closes: "18:00",
-    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "12:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "14:00",
+        closes: "18:00",
+      },
+    ],
     sameAs: [],
   };
 

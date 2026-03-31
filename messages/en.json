@@ -36,25 +36,58 @@
   "products": {
     "title": "Our Mushrooms",
     "subtitle": "Fresh mushrooms grown with passion at the foot of the Jura",
+    "labels": {
+      "description": "Description",
+      "origin": "Origin",
+      "taste": "Taste",
+      "cuisine": "In the kitchen",
+      "benefits": "Health benefits",
+      "properties": "Nutritional properties"
+    },
     "pleuroteBlanche": {
-      "name": "White Oyster Mushroom",
-      "description": "The white oyster mushroom offers a delicate texture and subtle, mild flavor. Ideal pan-fried, in sauce or in risottos."
+      "name": "White oyster mushroom",
+      "description": "The white oyster mushroom offers a delicate texture and subtle, mild flavor. Ideal pan-fried, in sauce or in risottos.",
+      "origin": "",
+      "taste": "",
+      "cuisine": "",
+      "benefits": "",
+      "properties": ""
     },
     "pleurotePanicaut": {
-      "name": "Pleurotus eryngii",
-      "description": "Pleurotus eryngii stands out for its firm flesh and pronounced flavor. Excellent grilled or as an accompaniment to meats."
+      "name": "King oyster mushroom (Pleurotus eryngii)",
+      "description": "King oyster belongs to the large oyster family — among the best-known edible mushrooms. It stands out for its smaller, fleshy brownish cap and chunky stem; the inner side of the cap is white.",
+      "origin": "Its name comes from the wild plant sea holly (Eryngium); the mushroom grows on dead stumps. Also known as Eryngii. Native to southern Europe, especially Spain and southern France.",
+      "taste": "Mild but delicious. Firm, thick white flesh with a pleasant aroma.",
+      "cuisine": "Very versatile: seared slices with oil, salt and pepper, or with cream and vegetables; stews; pasta and rice with tomato and chopped mushroom; also raw in sandwiches or salads. Keeps well when stored cool.",
+      "benefits": "Like other oyster mushrooms, it may support immunity, white blood cell production, fibre for gut balance, antioxidants, anti-inflammatory effects and the nervous system.",
+      "properties": "Rich in vitamins and minerals: B2, B3, B5, iron, phosphorus, copper, potassium, etc."
     },
     "blackPearl": {
       "name": "Black Pearl",
-      "description": "Black Pearl is a mushroom with a dark cap and meaty texture. Its intense flavor makes it a choice ingredient for hearty dishes."
+      "description": "An oyster-mushroom variety with a dark cap and meaty texture, valued for its bold flavour.",
+      "origin": "A recent variety from hybridizing European and Japanese grey oyster strains.",
+      "taste": "",
+      "cuisine": "",
+      "benefits": "",
+      "properties": ""
     },
     "shiitake": {
       "name": "Shiitake",
-      "description": "Shiitake, originally from Asia, is prized for its firm flesh and pronounced umami flavor. Perfect for stir-fries, soups and Asian dishes."
+      "description": "Also called the fragrant mushroom: a large cap from light to dark brown, sometimes speckled white, 5–15 cm across, soft and silky. In the wild it grows in broadleaf forests. The name comes from Japanese, linked to the shii tree (Castanopsis), related to oak and beech.",
+      "origin": "Asian in origin; traditionally cultivated in China and Japan.",
+      "taste": "Meaty and savoury, deepens dishes. Aromas reminiscent of onion and sulphurous vegetables (cooked cabbage, leeks…).",
+      "cuisine": "Cook 15–20 minutes (20 is ideal). Pan-fried or in broth.",
+      "benefits": "Lentinan, an immunostimulant from shiitake, has been studied for limiting fat buildup in the liver and supporting liver function.",
+      "properties": "May support immunity and natural defences. Rich in antioxidants for cell and skin ageing. Nutrient-rich: potassium, manganese, magnesium, iron, phosphorus; vitamins D, B1, B2, B6, B12, B3; lipids and protein. Used in cooking and traditional wellness contexts."
     },
     "criniereLion": {
-      "name": "Lion's Mane",
-      "description": "Also called 'beard of Saturn', lion's mane offers a unique filamentous texture and delicate notes. Delicious pan-fried or in broth."
+      "name": "Lion's mane",
+      "description": "Also called bearded tooth mushroom: unique stringy texture and delicate notes. Delicious pan-fried or in broth.",
+      "origin": "",
+      "taste": "",
+      "cuisine": "",
+      "benefits": "",
+      "properties": ""
     }
   },
   "contact": {

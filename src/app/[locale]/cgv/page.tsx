@@ -30,17 +30,17 @@ export default async function CGVPage({
   const t = await getTranslations("legal.cgv");
 
   return (
-    <div className="bg-white">
-      <section className="border-b border-emerald-100 bg-emerald-50/30 py-12">
+    <div className="bg-jc-page">
+      <section className="border-b border-jc-200 bg-jc-100/40 py-12">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-emerald-900">{t("title")}</h1>
-          <p className="mt-4 text-emerald-800">{t("intro")}</p>
+          <h1 className="text-3xl font-bold text-jc-900">{t("title")}</h1>
+          <p className="mt-4 text-jc-800">{t("intro")}</p>
         </div>
       </section>
 
       <section className="py-12">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-emerald max-w-none space-y-8 text-emerald-900">
+          <div className="prose prose-neutral prose-headings:text-jc-900 max-w-none space-y-8 text-jc-900">
             <div>
               <h2 className="text-xl font-semibold">Article 1 - Objet</h2>
               <p className="mt-2">

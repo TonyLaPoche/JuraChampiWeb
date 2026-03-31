@@ -28,13 +28,13 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="bg-white">
-      <section className="bg-gradient-to-b from-emerald-50 to-white py-12 sm:py-16">
+    <div className="bg-jc-page">
+      <section className="bg-gradient-to-b from-jc-100 to-jc-page py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-emerald-900 sm:text-4xl">
+          <h1 className="text-3xl font-bold text-jc-900 sm:text-4xl">
             {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-emerald-700">{t("subtitle")}</p>
+          <p className="mt-4 text-lg text-jc-700">{t("subtitle")}</p>
         </div>
       </section>
 
@@ -42,15 +42,15 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2">
             {/* Contact form */}
-            <div className="rounded-2xl border border-emerald-100 bg-emerald-50/30 p-6 sm:p-8">
-              <h2 className="text-xl font-semibold text-emerald-900">
+            <div className="rounded-2xl border border-jc-200 bg-jc-100/40 p-6 sm:p-8">
+              <h2 className="text-xl font-semibold text-jc-900">
                 {t("form.sectionTitle")}
               </h2>
               <form onSubmit={handleSubmit} className="mt-6 space-y-4">
                 <div>
                   <label
                     htmlFor="name"
-                    className="block text-sm font-medium text-emerald-900"
+                    className="block text-sm font-medium text-jc-900"
                   >
                     {t("form.name")}
                   </label>
@@ -59,13 +59,13 @@ export default function ContactPage() {
                     id="name"
                     name="name"
                     required
-                    className="mt-1 block w-full rounded-lg border border-emerald-200 px-4 py-2 focus:border-emerald-500 focus:ring-emerald-500"
+                    className="mt-1 block w-full rounded-lg border border-jc-300 px-4 py-2 focus:border-jc-600 focus:ring-jc-600"
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="email"
-                    className="block text-sm font-medium text-emerald-900"
+                    className="block text-sm font-medium text-jc-900"
                   >
                     {t("form.email")}
                   </label>
@@ -74,13 +74,13 @@ export default function ContactPage() {
                     id="email"
                     name="email"
                     required
-                    className="mt-1 block w-full rounded-lg border border-emerald-200 px-4 py-2 focus:border-emerald-500 focus:ring-emerald-500"
+                    className="mt-1 block w-full rounded-lg border border-jc-300 px-4 py-2 focus:border-jc-600 focus:ring-jc-600"
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="phone"
-                    className="block text-sm font-medium text-emerald-900"
+                    className="block text-sm font-medium text-jc-900"
                   >
                     {t("form.phone")}
                   </label>
@@ -88,13 +88,13 @@ export default function ContactPage() {
                     type="tel"
                     id="phone"
                     name="phone"
-                    className="mt-1 block w-full rounded-lg border border-emerald-200 px-4 py-2 focus:border-emerald-500 focus:ring-emerald-500"
+                    className="mt-1 block w-full rounded-lg border border-jc-300 px-4 py-2 focus:border-jc-600 focus:ring-jc-600"
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="subject"
-                    className="block text-sm font-medium text-emerald-900"
+                    className="block text-sm font-medium text-jc-900"
                   >
                     {t("form.subject")}
                   </label>
@@ -103,13 +103,13 @@ export default function ContactPage() {
                     id="subject"
                     name="subject"
                     required
-                    className="mt-1 block w-full rounded-lg border border-emerald-200 px-4 py-2 focus:border-emerald-500 focus:ring-emerald-500"
+                    className="mt-1 block w-full rounded-lg border border-jc-300 px-4 py-2 focus:border-jc-600 focus:ring-jc-600"
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="message"
-                    className="block text-sm font-medium text-emerald-900"
+                    className="block text-sm font-medium text-jc-900"
                   >
                     {t("form.message")}
                   </label>
@@ -118,13 +118,13 @@ export default function ContactPage() {
                     name="message"
                     rows={4}
                     required
-                    className="mt-1 block w-full rounded-lg border border-emerald-200 px-4 py-2 focus:border-emerald-500 focus:ring-emerald-500"
+                    className="mt-1 block w-full rounded-lg border border-jc-300 px-4 py-2 focus:border-jc-600 focus:ring-jc-600"
                   />
                 </div>
                 <button
                   type="submit"
                   disabled={status === "sending"}
-                  className="w-full rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-700 disabled:opacity-50"
+                  className="w-full rounded-lg bg-jc-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-jc-800 disabled:opacity-50"
                 >
                   {status === "sending"
                     ? t("form.sending")
@@ -138,20 +138,20 @@ export default function ContactPage() {
             </div>
 
             {/* Contact card */}
-            <div className="rounded-2xl border border-emerald-200 bg-white p-6 shadow-lg sm:p-8">
-              <h2 className="text-xl font-semibold text-emerald-900">
+            <div className="rounded-2xl border border-jc-300 bg-jc-page p-6 shadow-lg sm:p-8">
+              <h2 className="text-xl font-semibold text-jc-900">
                 {t("info.title")}
               </h2>
               <div className="mt-6 space-y-4">
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">📞</span>
                   <div>
-                    <p className="text-sm font-medium text-emerald-600">
+                    <p className="text-sm font-medium text-jc-600">
                       {t("info.phone")}
                     </p>
                     <a
                       href="tel:+33609331567"
-                      className="text-lg font-semibold text-emerald-900 hover:text-emerald-600"
+                      className="text-lg font-semibold text-jc-900 hover:text-jc-600"
                     >
                       {t("info.phoneValue")}
                     </a>
@@ -160,12 +160,12 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">✉️</span>
                   <div>
-                    <p className="text-sm font-medium text-emerald-600">
+                    <p className="text-sm font-medium text-jc-600">
                       {t("info.email")}
                     </p>
                     <a
                       href="mailto:contact@jurachampi.fr"
-                      className="text-lg font-semibold text-emerald-900 hover:text-emerald-600"
+                      className="text-lg font-semibold text-jc-900 hover:text-jc-600"
                     >
                       {t("info.emailValue")}
                     </a>
@@ -174,10 +174,10 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">📍</span>
                   <div>
-                    <p className="text-sm font-medium text-emerald-600">
+                    <p className="text-sm font-medium text-jc-600">
                       {t("info.address")}
                     </p>
-                    <p className="text-lg text-emerald-900">
+                    <p className="text-lg text-jc-900">
                       {t("info.addressValue")}
                     </p>
                   </div>
@@ -185,10 +185,10 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">🕐</span>
                   <div>
-                    <p className="text-sm font-medium text-emerald-600">
+                    <p className="text-sm font-medium text-jc-600">
                       {t("info.hours")}
                     </p>
-                    <p className="text-lg text-emerald-900">
+                    <p className="text-lg text-jc-900">
                       {t("info.hoursValue")}
                     </p>
                   </div>

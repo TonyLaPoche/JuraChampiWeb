@@ -2,6 +2,8 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { routing } from "@/i18n/routing";
+import { ProductDetailSections } from "@/components/ProductDetailSections";
+import { champignons } from "@/lib/assets";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -12,42 +14,42 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isFr = locale === "fr";
   return {
     title: isFr
-      ? "Nos Champignons | Shiitaké, pleurote, champignon de Paris - Jura Champi"
-      : "Our Mushrooms | Shiitake, oyster, button mushroom - Jura Champi",
+      ? "Nos Champignons | Shiitaké, pleurote, Black Pearl — Jura Champi"
+      : "Our Mushrooms | Shiitake, oyster, Black Pearl — Jura Champi",
     description: isFr
-      ? "Découvrez nos champignons frais cultivés au pied du Jura : Pleurote blanche, Pleurote de Panicaut, Black Pearl, Shiitaké, Crinière de lion. Producteur local, livraison restaurants et particuliers."
-      : "Discover our fresh mushrooms grown at the foot of the Jura: white oyster, Shiitake, Lion's mane. Local producer, delivery to restaurants and individuals.",
+      ? "Découvrez nos champignons frais cultivés au pied du Jura : Shiitaké, Pleurote blanche, Pleurote de Panicaut, Black Pearl, Crinière de lion. Producteur local."
+      : "Discover our fresh mushrooms at the foot of the Jura: Shiitake, white oyster, king oyster, Black Pearl, lion's mane. Local producer.",
     keywords: isFr
-      ? ["champignons Jura", "shiitaké", "pleurote", "champignon de Paris", "maitaké", "champignons frais"]
-      : ["Jura mushrooms", "shiitake", "oyster mushroom", "fresh mushrooms"],
+      ? ["champignons Jura", "shiitaké", "pleurote", "Black Pearl", "crinière de lion", "champignons bio"]
+      : ["Jura mushrooms", "shiitake", "oyster mushroom", "lion's mane"],
   };
 }
 
 const products = [
   {
+    id: "shiitake",
+    img: champignons.shiitake,
+    translationKey: "shiitake" as const,
+  },
+  {
     id: "pleuroteBlanche",
-    img: "https://images.unsplash.com/photo-1615485290382-441e4d048cb5?w=600&h=400&fit=crop",
-    translationKey: "pleuroteBlanche",
+    img: champignons.pleuroteBlanche,
+    translationKey: "pleuroteBlanche" as const,
   },
   {
     id: "pleurotePanicaut",
-    img: "https://images.unsplash.com/photo-1615485290382-441e4d048cb5?w=600&h=400&fit=crop",
-    translationKey: "pleurotePanicaut",
+    img: champignons.pleurotePanicaut,
+    translationKey: "pleurotePanicaut" as const,
   },
   {
     id: "blackPearl",
-    img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
-    translationKey: "blackPearl",
-  },
-  {
-    id: "shiitake",
-    img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
-    translationKey: "shiitake",
+    img: champignons.blackPearl,
+    translationKey: "blackPearl" as const,
   },
   {
     id: "criniereLion",
-    img: "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=600&h=400&fit=crop",
-    translationKey: "criniereLion",
+    img: champignons.criniereLion,
+    translationKey: "criniereLion" as const,
   },
 ];
 
@@ -62,13 +64,13 @@ export default async function ProduitsPage({
   const t = await getTranslations("products");
 
   return (
-    <div className="bg-white">
-      <section className="bg-gradient-to-b from-emerald-50 to-white py-12 sm:py-16">
+    <div className="bg-jc-page">
+      <section className="bg-gradient-to-b from-jc-100 to-jc-page py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-emerald-900 sm:text-4xl">
+          <h1 className="text-3xl font-bold text-jc-900 sm:text-4xl">
             {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-emerald-700">{t("subtitle")}</p>
+          <p className="mt-4 text-lg text-jc-700">{t("subtitle")}</p>
         </div>
       </section>
 
@@ -78,11 +80,11 @@ export default async function ProduitsPage({
             {products.map((product, index) => (
               <div
                 key={product.id}
-                className={`flex flex-col gap-8 lg:flex-row lg:items-center ${
+                className={`flex flex-col gap-8 lg:flex-row lg:items-start ${
                   index % 2 === 1 ? "lg:flex-row-reverse" : ""
                 }`}
               >
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl lg:w-1/2">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-jc-300/40 lg:w-1/2">
                   <Image
                     src={product.img}
                     alt={t(`${product.translationKey}.name`)}
@@ -93,12 +95,13 @@ export default async function ProduitsPage({
                   />
                 </div>
                 <div className="lg:w-1/2 lg:px-12">
-                  <h2 className="text-2xl font-bold text-emerald-900 sm:text-3xl">
+                  <h2 className="text-2xl font-bold text-jc-900 sm:text-3xl">
                     {t(`${product.translationKey}.name`)}
                   </h2>
-                  <p className="mt-4 text-lg leading-relaxed text-emerald-800">
+                  <p className="mt-4 text-lg leading-relaxed text-jc-800">
                     {t(`${product.translationKey}.description`)}
                   </p>
+                  <ProductDetailSections translationKey={product.translationKey} />
                 </div>
               </div>
             ))}

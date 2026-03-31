@@ -36,25 +36,58 @@
   "products": {
     "title": "Nos Champignons",
     "subtitle": "Des champignons frais cultivés avec passion au pied du Jura",
+    "labels": {
+      "description": "Description",
+      "origin": "Origine",
+      "taste": "Goût",
+      "cuisine": "En cuisine",
+      "benefits": "Les bienfaits",
+      "properties": "Ses propriétés"
+    },
     "pleuroteBlanche": {
       "name": "Pleurote blanche",
-      "description": "La pleurote blanche offre une texture délicate et une saveur douce et subtile. Idéale poêlée, en sauce ou dans les risottos."
+      "description": "La pleurote blanche offre une texture délicate et une saveur douce et subtile. Idéale poêlée, en sauce ou dans les risottos.",
+      "origin": "",
+      "taste": "",
+      "cuisine": "",
+      "benefits": "",
+      "properties": ""
     },
     "pleurotePanicaut": {
       "name": "Pleurote de Panicaut",
-      "description": "Le pleurote de Panicaut, ou pleurote du panicaut, se distingue par sa chair ferme et son goût prononcé. Excellent grillé ou en accompagnement de viandes."
+      "description": "Le pleurote de Panicaut fait partie de la vaste famille des pleurotes, parmi les champignons les plus connus et consommés. On le reconnaît à son chapeau charnu et plus petit, de couleur brunâtre avec un pied joufflu ; l'intérieur du chapeau est blanc.",
+      "origin": "Son nom vient de la plante sauvage le panicaut (chardon), car le pleurote pousse sur ses souches mortes. Il est aussi connu sous le nom Eryngii. Il tire ses origines de l'Europe méridionale, notamment de l'Espagne et du Sud de la France.",
+      "taste": "Doux mais délicieux. Sa chair ferme, épaisse et blanche dégage une odeur agréable.",
+      "cuisine": "Sa douceur ouvre de nombreuses possibilités : grillé (tranches saisies à la poêle avec huile, sel et poivre, ou avec crème et petits légumes), mijoté (ragoûts, plats mijotés), pâtes et riz avec sauce tomate et pleurote haché. Se consomme aussi cru en sandwich ou en salade. Bonne conservation au frais.",
+      "benefits": "Le pleurote de Panicaut et les pleurotes en général ont de multiples bienfaits : soutien du système immunitaire, stimulation de la production de globules blancs, apport en fibres utiles au microbiote, antioxydants contre les effets du vieillissement, action anti-inflammatoire, soutien du système nerveux.",
+      "properties": "Riche en vitamines et minéraux : vitamines B2, B3, B5, fer, phosphore, cuivre, potassium, etc."
     },
     "blackPearl": {
       "name": "Black Pearl",
-      "description": "Le Black Pearl est un champignon au chapeau sombre et à la texture charnue. Son goût intense en fait un ingrédient de choix pour les plats relevés."
+      "description": "Variété de la famille des pleurotes au chapeau sombre et à la texture charnue, appréciée pour son goût marqué.",
+      "origin": "Variété apparue il y a quelques années, issue d'une hybridation entre des souches de pleurotes gris européennes et japonaises.",
+      "taste": "",
+      "cuisine": "",
+      "benefits": "",
+      "properties": ""
     },
     "shiitake": {
       "name": "Shiitaké",
-      "description": "Le shiitaké, originaire d'Asie, est apprécié pour sa chair ferme et son goût umami prononcé. Parfait pour les sautés, soupes et plats asiatiques."
+      "description": "Aussi appelé champignon parfumé, il se distingue par son grand chapeau qui varie du brun clair au brun foncé, parfois tacheté de blanc. De 5 à 15 cm de diamètre, il est mou et soyeux au toucher. À l'état sauvage, il pousse dans les forêts de feuillus. Son nom vient du japonais, lié au shii (Castanopsis), arbre proche du chêne et du hêtre.",
+      "origin": "Le shiitaké provient du continent asiatique ; il est cultivé traditionnellement en Chine et au Japon.",
+      "taste": "Rappelle la saveur de la viande : charnu et savoureux, il approfondit les plats. Arômes caractéristiques d'oignon et de légumes soufrés (choux cuits, poireaux…).",
+      "cuisine": "Cuisson 15 à 20 minutes (20 minutes est idéal). En poêlée ou en bouillon.",
+      "benefits": "La lentinane, immunostimulant extrait du shiitaké, a montré une capacité à inhiber l'accumulation de graisses dans le foie et à améliorer la fonction hépatique.",
+      "properties": "Soutient le système immunitaire pour tonifier l'organisme et renforcer les défenses naturelles. Riche en antioxydants, utile pour le vieillissement cellulaire et cutané. Riche en nutriments : potassium, manganèse, magnésium, fer, phosphore ; vitamines D, B1, B2, B6, B12, B3 ; lipides et protéines en bonnes quantités. Utilisé en cuisine et à des fins thérapeutiques."
     },
     "criniereLion": {
       "name": "Crinière de lion",
-      "description": "Aussi appelé « barbe de saturnin », la crinière de lion offre une texture unique en filaments et des notes délicates. Délicieuse poêlée ou en bouillon."
+      "description": "Aussi appelée barbe de Saturne, la crinière de lion offre une texture unique en filaments et des notes délicates. Délicieuse poêlée ou en bouillon.",
+      "origin": "",
+      "taste": "",
+      "cuisine": "",
+      "benefits": "",
+      "properties": ""
     }
   },
   "contact": {
