@@ -9,27 +9,27 @@
   "home": {
     "hero": {
       "title": "Jura Champi",
-      "subtitle": "Fresh mushroom producer in the Jura region",
+      "subtitle": "Fresh, edible mushroom cultivation on the edge of the Jura",
       "cta": "Contact us"
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "Jura Champi is a small artisan farm where we grow our mushrooms in accordance with organic farming and strive to preserve the nature and environment around us. Located in the small village of Collonges, on the edge of the Jura. Our small farm is in the Ain department, close to the Swiss border.",
+      "paragraph1": "Jura Champi is a small artisan farm dedicated to growing quality mushrooms in accordance with organic farming. We are committed to preserving the nature and environment around us, working responsibly and sustainably. Based in the village of Collonges, on the edge of the Jura, our farm is in the Ain department, a stone's throw from the Swiss border.",
       "learnMore": "Discover our story and where to find us →"
     },
     "clients": {
       "title": "Who are our mushrooms for?",
-      "intro": "Our mushrooms are for restaurateurs, caterers, communities, organic food stores and other businesses. Individuals can also be delivered directly to their homes.",
+      "intro": "Our mushrooms are offered to restaurateurs, caterers and public institutions, as well as organic shops and local retailers. Individuals can find us at CSA schemes (AMAP) and at our delivery pickup points.",
       "restaurants": "Restaurants & Caterers",
       "restaurantsDesc": "Fresh, quality products to enhance your dishes",
-      "canteens": "Canteens & Schools",
+      "canteens": "Public institutions",
       "canteensDesc": "Regular supplies for local, healthy meals",
       "individuals": "Individuals",
-      "individualsDesc": "Home delivery for your everyday recipes"
+      "individualsDesc": "Find our mushrooms at CSA schemes and delivery pickup points"
     },
     "productsPreview": {
-      "title": "Discover our selection of fresh mushrooms grown at the foot of the Jura",
-      "subtitle": "Choose our mushrooms",
+      "title": "Our Mushrooms",
+      "subtitle": "Discover our selection of fresh mushrooms grown at the foot of the Jura",
       "viewAll": "View all our mushrooms"
     }
   },
@@ -46,48 +46,48 @@
     },
     "pleuroteBlanche": {
       "name": "White oyster mushroom",
-      "description": "The white oyster mushroom offers a delicate texture and subtle, mild flavor. Ideal pan-fried, in sauce or in risottos.",
-      "origin": "",
-      "taste": "",
-      "cuisine": "",
-      "benefits": "",
-      "properties": ""
+      "description": "The white oyster mushroom (Pleurotus ostreatus) has a fan-shaped cap in white to slightly pearly tones. It grows in elegant clusters, with fine, tight gills running down a short, off-centre stem.",
+      "origin": "Naturally found in temperate forests across Europe, Asia and North America. It mainly develops on dead hardwood such as beech or walnut.",
+      "taste": "Prized for its mild, refined flavour. Its melting, slightly fibrous texture makes it a choice ingredient.",
+      "cuisine": "Very versatile: sautéed, grilled, in sauces, soups or vegetarian dishes.",
+      "benefits": "Known for its nutritional properties, it may support immune function and help reduce cholesterol.",
+      "properties": "Rich in fibre, plant protein and B vitamins. It also contains antioxidants and essential minerals: zinc, copper, potassium, iron, phosphorus and magnesium."
     },
     "pleurotePanicaut": {
-      "name": "King oyster mushroom (Pleurotus eryngii)",
-      "description": "King oyster belongs to the large oyster family — among the best-known edible mushrooms. It stands out for its smaller, fleshy brownish cap and chunky stem; the inner side of the cap is white.",
-      "origin": "Its name comes from the wild plant sea holly (Eryngium); the mushroom grows on dead stumps. Also known as Eryngii. Native to southern Europe, especially Spain and southern France.",
-      "taste": "Mild but delicious. Firm, thick white flesh with a pleasant aroma.",
-      "cuisine": "Very versatile: seared slices with oil, salt and pepper, or with cream and vegetables; stews; pasta and rice with tomato and chopped mushroom; also raw in sandwiches or salads. Keeps well when stored cool.",
-      "benefits": "Like other oyster mushrooms, it may support immunity, white blood cell production, fibre for gut balance, antioxidants, anti-inflammatory effects and the nervous system.",
-      "properties": "Rich in vitamins and minerals: B2, B3, B5, iron, phosphorus, copper, potassium, etc."
+      "name": "King oyster mushroom (Eryngii)",
+      "description": "King oyster belongs to the large oyster family, among the best-known edible mushrooms. It has a fleshy, rather small brownish cap and a chunky stem; the inside of the cap is white.",
+      "origin": "Its name comes from the wild sea holly plant (panicaut), on whose dead stumps it grows. Also known as eryngii. Native to southern Europe, especially Spain and southern France.",
+      "taste": "Mild and delicious. Firm, thick white flesh with a pleasant aroma.",
+      "cuisine": "Very versatile: seared slices with oil, salt and pepper, or with cream and vegetables; stews; pasta and rice with tomato sauce; also raw in sandwiches or salads. Keeps well when stored cool.",
+      "benefits": "Like other oyster mushrooms: supports immunity, white blood cell production, fibre for gut balance, antioxidants, anti-inflammatory action and nervous system support.",
+      "properties": "Rich in vitamins (B2, B3, B5) and minerals: iron, phosphorus, copper, potassium, etc."
     },
     "blackPearl": {
       "name": "Black Pearl",
-      "description": "An oyster-mushroom variety with a dark cap and meaty texture, valued for its bold flavour.",
-      "origin": "A recent variety from hybridizing European and Japanese grey oyster strains.",
-      "taste": "",
-      "cuisine": "",
-      "benefits": "",
-      "properties": ""
+      "description": "Also called black oyster or Black King, Black Pearl has a rounded cap similar to eryngii. Its stem is less dense but wider than classic oyster mushrooms. Colour ranges from light to marbled dark brown, often speckled with white.",
+      "origin": "A relatively recent oyster variety from hybridizing European and Japanese grey oyster strains.",
+      "taste": "Similar to oyster mushrooms but more intense. Soft, juicy texture, very pleasant on the palate.",
+      "cuisine": "Pan-fried, fried, sautéed, in soup or stew — easy to use in many dishes.",
+      "benefits": "High in fibre; may support immunity and healthy digestion.",
+      "properties": "Rich in plant protein (about 20–30% dry weight), essential amino acids and vitamins (B1, B2, B3, B12, D2). Also provides zinc, copper, phosphorus, potassium, iron and magnesium."
     },
     "shiitake": {
       "name": "Shiitake",
-      "description": "Also called the fragrant mushroom: a large cap from light to dark brown, sometimes speckled white, 5–15 cm across, soft and silky. In the wild it grows in broadleaf forests. The name comes from Japanese, linked to the shii tree (Castanopsis), related to oak and beech.",
+      "description": "Also called the fragrant mushroom: a large cap from light to dark brown, sometimes speckled white, 5–15 cm across, soft and silky. In the wild it grows in broadleaf forests. The name comes from Japanese shii, the Castanopsis tree, related to oak and beech.",
       "origin": "Asian in origin; traditionally cultivated in China and Japan.",
-      "taste": "Meaty and savoury, deepens dishes. Aromas reminiscent of onion and sulphurous vegetables (cooked cabbage, leeks…).",
+      "taste": "Reminiscent of meat: hearty and savoury, it deepens dishes. Aromas of onion and sulphurous vegetables (cooked cabbage, leeks…).",
       "cuisine": "Cook 15–20 minutes (20 is ideal). Pan-fried or in broth.",
       "benefits": "Lentinan, an immunostimulant from shiitake, has been studied for limiting fat buildup in the liver and supporting liver function.",
-      "properties": "May support immunity and natural defences. Rich in antioxidants for cell and skin ageing. Nutrient-rich: potassium, manganese, magnesium, iron, phosphorus; vitamins D, B1, B2, B6, B12, B3; lipids and protein. Used in cooking and traditional wellness contexts."
+      "properties": "Supports immunity and natural defences. Rich in antioxidants for cell and skin ageing. Nutrients include potassium, manganese, magnesium, iron, phosphorus; vitamins D, B1, B2, B3, B6, B12; lipids and protein. Used in cooking and traditional wellness."
     },
     "criniereLion": {
       "name": "Lion's mane",
-      "description": "Also called bearded tooth mushroom: unique stringy texture and delicate notes. Delicious pan-fried or in broth.",
-      "origin": "",
-      "taste": "",
-      "cuisine": "",
-      "benefits": "",
-      "properties": ""
+      "description": "Also known as bearded tooth or pom pom blanc, lion's mane has a white, filamentous appearance like a mane or beard. In the wild this rare mushroom mainly grows on dead trees.",
+      "origin": "Found in Asia, Europe and North America; especially valued in Asia for centuries in traditional medicine.",
+      "taste": "Used in cooking and for wellness, it offers delicate flesh and a tender texture.",
+      "cuisine": "Pan-fried, in soup or broth, marinated or as nuggets — pairs well with many dishes.",
+      "benefits": "May support digestive comfort, nervous system balance and cognitive function.",
+      "properties": "Rich in essential amino acids and vitamins (B1, B2, B3, B5, B12, D2). Also zinc, phosphorus, copper, iron, selenium, potassium, calcium and germanium."
     }
   },
   "contact": {
@@ -113,7 +113,7 @@
       "hours": "Hours",
       "phoneValue": "+33 6 09 33 15 67",
       "emailValue": "contact@jurachampi.fr",
-      "addressValue": "250, rue de l'Etournelle Techno Parc de Collonges, 01550 Collonges",
+      "addressValue": "01550 Collonges",
       "hoursValue": "Monday to Friday — 9am to 12pm and 2pm to 6pm"
     }
   },
@@ -122,18 +122,18 @@
     "subtitle": "Our story, our premises and where to find us",
     "history": {
       "title": "Our story",
-      "paragraph1": "Jura Champi is a small artisan farm where we grow our mushrooms in accordance with organic farming and strive to preserve the nature and environment around us. Located in the small village of Collonges, on the edge of the Jura. Our small farm is in the Ain department, close to the Swiss border."
+      "paragraph1": "Our passion grew from walks in the forest. There, at the heart of nature, we discovered the richness and diversity of mushrooms and developed a true fascination for their world. Over time, that curiosity became a calling: to grow, understand and share these natural treasures. After months of learning and preparation, our mushroom farm was born in April 2026 — a milestone marking the start of an adventure guided by passion and respect for life. Today we put all our know-how and energy into producing quality mushrooms, grown with care and authenticity."
     },
     "premises": {
       "title": "Our premises",
-      "description": "Our farm is located in Collonges along the Jura. Our mushrooms are grown in accordance with organic farming.",
-      "address": "250, rue de l'Etournelle Techno Parc de Collonges, 01550 Collonges"
+      "description": "Our farm is in Collonges along the Jura. Our mushrooms are grown in accordance with organic farming.",
+      "address": "01550 Collonges"
     },
     "whereToFind": {
       "title": "Where to find us?",
       "online": {
-        "title": "Online & by phone",
-        "description": "Order or ask your questions by email or phone. We're happy to respond and organize deliveries according to your needs."
+        "title": "Online",
+        "description": "Ask your questions or order by email. We're happy to reply. Deliveries are made to an agreed pickup point."
       },
       "markets": {
         "title": "At markets",

@@ -72,7 +72,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       "https://jurachampi.fr/logo%20jura%20champi%20fond%20transparent.png",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "250, rue de l'Etournelle, Techno Parc de Collonges",
+      streetAddress: "Collonges",
       addressLocality: "Collonges",
       postalCode: "01550",
       addressRegion: "Ain",

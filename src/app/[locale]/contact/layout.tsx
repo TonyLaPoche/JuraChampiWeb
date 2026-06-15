@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props) {
       ? "Contact | Commander des champignons frais - Jura Champi"
       : "Contact | Order fresh mushrooms - Jura Champi",
     description: isFr
-      ? "Contactez Jura Champi pour commander des champignons frais. Livraison restaurants, cantines, particuliers dans le Jura. Téléphone, email, formulaire."
+      ? "Contactez Jura Champi pour commander des champignons frais. Restaurateurs, traiteurs, collectivités, AMAP et points de livraison. Téléphone, email, formulaire."
       : "Contact Jura Champi to order fresh mushrooms. Delivery to restaurants, canteens, individuals in the Jura. Phone, email, form.",
     keywords: isFr
       ? ["contact Jura Champi", "commander champignons Jura", "livraison champignons"]

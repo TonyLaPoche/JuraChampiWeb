@@ -47,9 +47,8 @@ export default async function MentionsLegalesPage({
               <p className="mt-2">
                 <strong>Raison sociale :</strong> Jura Champi<br />
                 <strong>Forme juridique :</strong> [À compléter : SARL, SAS, auto-entrepreneur, etc.]<br />
-                <strong>Siège social :</strong> 250, rue de l&apos;Etournelle Techno Parc de Collonges, 01550 Collonges<br />
+                <strong>Siège social :</strong> 01550 Collonges<br />
                 <strong>SIRET :</strong> [À compléter]<br />
-                <strong>RCS :</strong> [À compléter : RCS Lons-le-Saunier, numéro]<br />
                 <strong>Directeur de la publication :</strong> Laurence et Aurélien
               </p>
             </div>

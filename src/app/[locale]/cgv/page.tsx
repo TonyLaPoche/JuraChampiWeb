@@ -44,14 +44,14 @@ export default async function CGVPage({
             <div>
               <h2 className="text-xl font-semibold">Article 1 - Objet</h2>
               <p className="mt-2">
-                Les présentes Conditions Générales de Vente (CGV) s&apos;appliquent à toutes les ventes de champignons frais effectuées par Jura Champi, que ce soit auprès de professionnels (restaurants, cantines, traiteurs) ou de particuliers.
+                Les présentes Conditions Générales de Vente (CGV) s&apos;appliquent à toutes les ventes de champignons frais effectuées par Jura Champi, que ce soit auprès de professionnels (restaurants, traiteurs, collectivités) ou de particuliers via AMAP et points de livraison.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold">Article 2 - Produits</h2>
               <p className="mt-2">
-                Jura Champi commercialise des champignons frais cultivés dans le Jura : shiitaké, pleurote, champignon de Paris, maitaké et autres variétés. Les produits sont cultivés conformément aux normes de qualité et d&apos;hygiène en vigueur pour la vente de denrées alimentaires.
+                Jura Champi commercialise des champignons frais cultivés au pied du Jura : shiitaké, pleurote blanche, pleurote de Panicaut, Black Pearl, crinière de lion et autres variétés. Les produits sont cultivés conformément aux normes de qualité et d&apos;hygiène en vigueur pour la vente de denrées alimentaires.
               </p>
             </div>
 
@@ -72,7 +72,7 @@ export default async function CGVPage({
             <div>
               <h2 className="text-xl font-semibold">Article 5 - Livraison</h2>
               <p className="mt-2">
-                Les livraisons sont effectuées dans le périmètre du Jura et des départements limitrophes selon les zones définies. Les délais et conditions de livraison sont précisés lors de la commande. Les champignons sont livrés frais, dans des conditions garantissant leur conservation.
+                Les livraisons sont effectuées vers des points de livraison convenus dans le périmètre du Jura et des départements limitrophes. Les délais et conditions sont précisés lors de la commande. Les champignons sont livrés frais, dans des conditions garantissant leur conservation.
               </p>
             </div>
 
